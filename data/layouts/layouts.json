@@ -145,7 +145,7 @@
       "id": "LAYOUT_VERDANTURF_TOWN",
       "name": "VerdanturfTown_Layout",
       "width": 20,
-      "height": 20,
+      "height": 28,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Mauville",
       "border_filepath": "data/layouts/VerdanturfTown/border.bin",
@@ -4410,6 +4410,26 @@
       "secondary_tileset": "gTileset_MysteryEventsHouse",
       "border_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/border.bin",
       "blockdata_filepath": "data/layouts/SootopolisCity_MysteryEventsHouse_1F_StairsUnblocked/map.bin"
+    },
+    {
+      "id": "LAYOUT_MEGA_STONE_STORE",
+      "name": "MegaStoneStore_Layout",
+      "width": 10,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/MegaStoneStore/border.bin",
+      "blockdata_filepath": "data/layouts/MegaStoneStore/map.bin"
+    },
+    {
+      "id": "LAYOUT_DEWFORD_SAVANNAH",
+      "name": "DewfordSavannah_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Dewford",
+      "border_filepath": "data/layouts/DewfordSavannah/border.bin",
+      "blockdata_filepath": "data/layouts/DewfordSavannah/map.bin"
     }
   ]
 }

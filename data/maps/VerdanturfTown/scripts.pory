@@ -127,3 +127,9 @@ VerdanturfTown_Text_RusturfTunnelSign:
 	.string "canceled.”$"
 
 `
+script VerdanturfTown_EventScript_MegaStoneStoreSign {
+    lockall
+	msgbox("The Mega Stone Emporium")
+    releaseall
+    end
+}

@@ -1,28 +1,27 @@
-mapscripts MegaStoneStore_MapScripts {
-
-}
+MegaStoneStore_MapScripts::
 	.byte 0
 
-script MegaStoneSaleman{
-	lock
+
+Mega_Stone_Clerk::
+	lockall
 	faceplayer
-	message("Hi, I sell various Mega Stones, which one would you like?")
+	message Mega_Stone_Clerk_Text_0
 	waitmessage
-	pokemart(MegaStoneStore)
-	msgbox("Thanks for your mon- I mean patronage")
-	release
+	pokemart MegaStoneShop
+	msgbox Mega_Stone_Clerk_Text_1
+	releaseall
 	end
-}
 
-raw` 
 
-.align2
-MegaStoneStore::
-	.2byte ITEM_VENUSAUR
+ 
+
+.align 2
+MegaStoneShop::
+	.2byte ITEM_VENUSAURITE
 	.2byte ITEM_CHARIZARDITE_X
 	.2byte ITEM_CHARIZARDITE_Y
-	.2byte ITEM_BLASTOISITE
-	.2byte ITEM_ALAKAZAMITE
+	.2byte ITEM_BLASTOISINITE
+	.2byte ITEM_ALAKAZITE
 	.2byte ITEM_GENGARITE
 	.2byte ITEM_KANGASKHANITE
 	.2byte ITEM_PINSIRITE
@@ -32,8 +31,8 @@ MegaStoneStore::
 	.2byte ITEM_MEWTWONITE_Y
 	.2byte ITEM_AMPHAROSITE
 	.2byte ITEM_SCIZORITE
-	.2byte ITEM_HERACROSSITE
-	.2byte ITEM_HOUNDOOM
+	.2byte ITEM_HERACRONITE
+	.2byte ITEM_HOUNDOOMINITE
 	.2byte ITEM_TYRANITARITE
 	.2byte ITEM_BLAZIKENITE
 	.2byte ITEM_GARDEVOIRITE
@@ -66,3 +65,11 @@ MegaStoneStore::
 	.2byte ITEM_AUDINITE
 	.2byte ITEM_DIANCITE
 	.2byte ITEM_NONE
+	releaseall
+	end
+
+Mega_Stone_Clerk_Text_0:
+	.string "Hi, I sell various Mega Stones.$"
+
+Mega_Stone_Clerk_Text_1:
+	.string "Thanks for your mon- I mean patronage$"

@@ -125,3 +125,12 @@ VerdanturfTown_Text_RusturfTunnelSign:
 	.string "“The tunnel project has been\n"
 	.string "canceled.”$"
 
+VerdanturfTown_EventScript_MegaStoneStoreSign::
+	lockall
+	msgbox VerdanturfTown_EventScript_MegaStoneStoreSign_Text_0
+	releaseall
+	end
+
+
+VerdanturfTown_EventScript_MegaStoneStoreSign_Text_0:
+	.string "The Mega Stone Emporium$"
