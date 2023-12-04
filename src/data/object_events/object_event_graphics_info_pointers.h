@@ -237,6 +237,17 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RubySapphir
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RubySapphireMay;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Lugia;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_HoOh;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Articuno;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Zapdos;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Moltres;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Mewtwo;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Suicune;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Entei;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Raikou;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Celebi;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Giovanni;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RocketF;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RocketM;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Bard;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Hipster;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Trader;
@@ -486,6 +497,17 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_LINK_RS_MAY] =              &gObjectEventGraphicsInfo_RubySapphireMay,
     [OBJ_EVENT_GFX_LUGIA] =                    &gObjectEventGraphicsInfo_Lugia,
     [OBJ_EVENT_GFX_HOOH] =                     &gObjectEventGraphicsInfo_HoOh,
+    [OBJ_EVENT_GFX_ARTICUNO] =                     &gObjectEventGraphicsInfo_Articuno,
+    [OBJ_EVENT_GFX_ZAPDOS] =                     &gObjectEventGraphicsInfo_Zapdos,
+    [OBJ_EVENT_GFX_MOLTRES] =                     &gObjectEventGraphicsInfo_Moltres,
+    [OBJ_EVENT_GFX_MEWTWO] =                     &gObjectEventGraphicsInfo_Mewtwo,
+    [OBJ_EVENT_GFX_SUICUNE] =                     &gObjectEventGraphicsInfo_Suicune,
+    [OBJ_EVENT_GFX_ENTEI] =                     &gObjectEventGraphicsInfo_Entei,
+    [OBJ_EVENT_GFX_RAIKOU] =                     &gObjectEventGraphicsInfo_Raikou,
+    [OBJ_EVENT_GFX_CELEBI] =                     &gObjectEventGraphicsInfo_Celebi,
+    [OBJ_EVENT_GFX_GIOVANNI] =                     &gObjectEventGraphicsInfo_Giovanni,
+    [OBJ_EVENT_GFX_ROCKET_F] =                     &gObjectEventGraphicsInfo_RocketF,
+    [OBJ_EVENT_GFX_ROCKET_M] =                     &gObjectEventGraphicsInfo_RocketM,  
 };
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {
     [MAUVILLE_MAN_BARD]        = &gObjectEventGraphicsInfo_Bard,

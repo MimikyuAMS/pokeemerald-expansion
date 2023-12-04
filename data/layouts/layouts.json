@@ -94,7 +94,7 @@
     {
       "id": "LAYOUT_LITTLEROOT_TOWN",
       "name": "LittlerootTown_Layout",
-      "width": 20,
+      "width": 40,
       "height": 20,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_Petalburg",
@@ -1844,7 +1844,7 @@
     {
       "id": "LAYOUT_NEW_MAUVILLE_INSIDE",
       "name": "NewMauville_Inside_Layout",
-      "width": 41,
+      "width": 54,
       "height": 41,
       "primary_tileset": "gTileset_General",
       "secondary_tileset": "gTileset_BikeShop",
@@ -4430,6 +4430,246 @@
       "secondary_tileset": "gTileset_Dewford",
       "border_filepath": "data/layouts/DewfordSavannah/border.bin",
       "blockdata_filepath": "data/layouts/DewfordSavannah/map.bin"
+    },
+    {
+      "id": "LAYOUT_PETALBURG_FOREST_GROTTO",
+      "name": "PetalburgForestGrotto_Layout",
+      "width": 18,
+      "height": 29,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/PetalburgForestGrotto/border.bin",
+      "blockdata_filepath": "data/layouts/PetalburgForestGrotto/map.bin"
+    },
+    {
+      "id": "LAYOUT_PETALBURG_WOODS_CENTER",
+      "name": "PetalburgWoodsCenter_Layout",
+      "width": 29,
+      "height": 26,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Fortree",
+      "border_filepath": "data/layouts/PetalburgWoodsCenter/border.bin",
+      "blockdata_filepath": "data/layouts/PetalburgWoodsCenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_EMBER_CAVERNS",
+      "name": "EmberCaverns_Layout",
+      "width": 29,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lavaridge",
+      "border_filepath": "data/layouts/EmberCaverns/border.bin",
+      "blockdata_filepath": "data/layouts/EmberCaverns/map.bin"
+    },
+    {
+      "id": "LAYOUT_TRINITY_ARCHIPELAGO_DOCKS",
+      "name": "Trinity_Archipelago_Docks_Layout",
+      "width": 17,
+      "height": 13,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_IslandHarbor",
+      "border_filepath": "data/layouts/Trinity_Archipelago_Docks/border.bin",
+      "blockdata_filepath": "data/layouts/Trinity_Archipelago_Docks/map.bin"
+    },
+    {
+      "id": "LAYOUT_TRINITY_TOWN",
+      "name": "Trinity_Town_Layout",
+      "width": 74,
+      "height": 38,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Dewford",
+      "border_filepath": "data/layouts/Trinity_Town/border.bin",
+      "blockdata_filepath": "data/layouts/Trinity_Town/map.bin"
+    },
+    {
+      "id": "LAYOUT_THREE_CORNERS_BAY",
+      "name": "Three_Corners_Bay_Layout",
+      "width": 98,
+      "height": 45,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Dewford",
+      "border_filepath": "data/layouts/Three_Corners_Bay/border.bin",
+      "blockdata_filepath": "data/layouts/Three_Corners_Bay/map.bin"
+    },
+    {
+      "id": "LAYOUT_TRINITY_TOWN_POKECENTER",
+      "name": "Trinity_Town_Pokecenter_Layout",
+      "width": 14,
+      "height": 9,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/Trinity_Town_Pokecenter/border.bin",
+      "blockdata_filepath": "data/layouts/Trinity_Town_Pokecenter/map.bin"
+    },
+    {
+      "id": "LAYOUT_TRINITY_TOWN_POKECENTER_F2",
+      "name": "Trinity_Town_Pokecenter_F2_Layout",
+      "width": 14,
+      "height": 10,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_PokemonCenter",
+      "border_filepath": "data/layouts/Trinity_Town_Pokecenter_F2/border.bin",
+      "blockdata_filepath": "data/layouts/Trinity_Town_Pokecenter_F2/map.bin"
+    },
+    {
+      "id": "LAYOUT_TRINITY_TOWN_HOUSE",
+      "name": "Trinity_Town_House_Layout",
+      "width": 10,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/Trinity_Town_House/border.bin",
+      "blockdata_filepath": "data/layouts/Trinity_Town_House/map.bin"
+    },
+    {
+      "id": "LAYOUT_THURNICANE_ISLAND",
+      "name": "ThurnicaneIsland_Layout",
+      "width": 36,
+      "height": 46,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mauville",
+      "border_filepath": "data/layouts/ThurnicaneIsland/border.bin",
+      "blockdata_filepath": "data/layouts/ThurnicaneIsland/map.bin"
+    },
+    {
+      "id": "LAYOUT_BLIZZAGUA_ISLAND",
+      "name": "BlizzaguaIsland_Layout",
+      "width": 46,
+      "height": 35,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Mauville",
+      "border_filepath": "data/layouts/BlizzaguaIsland/border.bin",
+      "blockdata_filepath": "data/layouts/BlizzaguaIsland/map.bin"
+    },
+    {
+      "id": "LAYOUT_FLAMEFORGE_ISLAND",
+      "name": "FlameforgeIsland_Layout",
+      "width": 46,
+      "height": 35,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lavaridge",
+      "border_filepath": "data/layouts/FlameforgeIsland/border.bin",
+      "blockdata_filepath": "data/layouts/FlameforgeIsland/map.bin"
+    },
+    {
+      "id": "LAYOUT_SHOCKOLA_FACTORY",
+      "name": "Shockola_Factory_Layout",
+      "width": 35,
+      "height": 16,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_BikeShop",
+      "border_filepath": "data/layouts/Shockola_Factory/border.bin",
+      "blockdata_filepath": "data/layouts/Shockola_Factory/map.bin"
+    },
+    {
+      "id": "LAYOUT_MT_PEPPERTHORN",
+      "name": "MtPepperthorn_Layout",
+      "width": 28,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lavaridge",
+      "border_filepath": "data/layouts/MtPepperthorn/border.bin",
+      "blockdata_filepath": "data/layouts/MtPepperthorn/map.bin"
+    },
+    {
+      "id": "LAYOUT_SNOWCLOAK_CAVERNS",
+      "name": "SnowcloakCaverns_Layout",
+      "width": 15,
+      "height": 16,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/SnowcloakCaverns/border.bin",
+      "blockdata_filepath": "data/layouts/SnowcloakCaverns/map.bin"
+    },
+    {
+      "id": "LAYOUT_SNOWCLOAK_CAVERNS_B1",
+      "name": "SnowcloakCavernsB1_Layout",
+      "width": 20,
+      "height": 16,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/SnowcloakCavernsB1/border.bin",
+      "blockdata_filepath": "data/layouts/SnowcloakCavernsB1/map.bin"
+    },
+    {
+      "id": "LAYOUT_ROCKET_HIDEOUT",
+      "name": "RocketHideout_Layout",
+      "width": 28,
+      "height": 17,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/RocketHideout/border.bin",
+      "blockdata_filepath": "data/layouts/RocketHideout/map.bin"
+    },
+    {
+      "id": "LAYOUT_MIMIKYUS_ROOM",
+      "name": "MimikyusRoom_Layout",
+      "width": 10,
+      "height": 10,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/MimikyusRoom/border.bin",
+      "blockdata_filepath": "data/layouts/MimikyusRoom/map.bin"
+    },
+    {
+      "id": "LAYOUT_LITTLEROOT_CAVERNS",
+      "name": "LittlerootCaverns_Layout",
+      "width": 40,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Cave",
+      "border_filepath": "data/layouts/LittlerootCaverns/border.bin",
+      "blockdata_filepath": "data/layouts/LittlerootCaverns/map.bin"
+    },
+    {
+      "id": "LAYOUT_BIRCHS_GARDEN",
+      "name": "BirchsGarden_Layout",
+      "width": 21,
+      "height": 25,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/BirchsGarden/border.bin",
+      "blockdata_filepath": "data/layouts/BirchsGarden/map.bin"
+    },
+    {
+      "id": "LAYOUT_BIRCHS_SECRET_HOUSE",
+      "name": "BirchsSecretHouse_Layout",
+      "width": 12,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Lab",
+      "border_filepath": "data/layouts/BirchsSecretHouse/border.bin",
+      "blockdata_filepath": "data/layouts/BirchsSecretHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_PYROPUFF_CRAG",
+      "name": "PyropuffCrag_Layout",
+      "width": 40,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Lavaridge",
+      "border_filepath": "data/layouts/PyropuffCrag/border.bin",
+      "blockdata_filepath": "data/layouts/PyropuffCrag/map.bin"
+    },
+    {
+      "id": "LAYOUT_LEAU_LAKE",
+      "name": "LeauLake_Layout",
+      "width": 30,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/LeauLake/border.bin",
+      "blockdata_filepath": "data/layouts/LeauLake/map.bin"
+    },
+    {
+      "id": "LAYOUT_BLUTE_FOREST",
+      "name": "BluteForest_Layout",
+      "width": 30,
+      "height": 30,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/BluteForest/border.bin",
+      "blockdata_filepath": "data/layouts/BluteForest/map.bin"
     }
   ]
 }

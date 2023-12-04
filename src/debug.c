@@ -50,7 +50,6 @@
 #include "string_util.h"
 #include "task.h"
 #include "pokemon_summary_screen.h"
-#include "wild_encounter.h"
 #include "constants/abilities.h"
 #include "constants/battle_ai.h"
 #include "constants/battle_frontier.h"
@@ -563,22 +562,6 @@ static const u8 sDebugText_Give_MaxCoins[] =            _("Max Coins");
 static const u8 sDebugText_Give_BattlePoints[] =        _("Max Battle Points");
 static const u8 sDebugText_Give_DaycareEgg[] =          _("Daycare Egg");
 // Fill Menu
-<<<<<<< HEAD
-static const u8 sDebugText_Fill_Pc_Fast[] =        _("Fill PCBoxes Fast");
-static const u8 sDebugText_Fill_Pc_Slow[] =        _("Fill PCBoxes Slow (LAG!)");
-static const u8 sDebugText_Fill_Pc_Items[] =       _("Fill PCItems");
-static const u8 sDebugText_Fill_PocketItems[] =    _("Fill Pocket Items");
-static const u8 sDebugText_Fill_PocketPokeBalls[] =_("Fill Pocket PokeBalls");
-static const u8 sDebugText_Fill_PocketTMHM[] =     _("Fill Pocket TMHM");
-static const u8 sDebugText_Fill_PocketBerries[] =  _("Fill Pocket Berries");
-static const u8 sDebugText_Fill_PocketMegaStones[] = _("Fill Pocket MegaStones");
-static const u8 sDebugText_Fill_PocketKeyItems[] = _("Fill Pocket KeyItems");
-// Sound Mneu
-static const u8 sDebugText_Sound_SE[] =                 _("Effects…{CLEAR_TO 110}{RIGHT_ARROW}");
-static const u8 sDebugText_Sound_SE_ID[] =              _("Sound Id: {STR_VAR_3}\n{STR_VAR_1}    \n{STR_VAR_2}");
-static const u8 sDebugText_Sound_MUS[] =                _("Music…{CLEAR_TO 110}{RIGHT_ARROW}");
-static const u8 sDebugText_Sound_MUS_ID[] =             _("Music Id: {STR_VAR_3}\n{STR_VAR_1}    \n{STR_VAR_2}");
-=======
 static const u8 sDebugText_Fill_Pc_Fast[] =             _("Fill PCBoxes Fast");
 static const u8 sDebugText_Fill_Pc_Slow[] =             _("Fill PCBoxes Slow (LAG!)");
 static const u8 sDebugText_Fill_Pc_Items[] =            _("Fill PCItems");
@@ -586,13 +569,13 @@ static const u8 sDebugText_Fill_PocketItems[] =         _("Fill Pocket Items");
 static const u8 sDebugText_Fill_PocketPokeBalls[] =     _("Fill Pocket PokeBalls");
 static const u8 sDebugText_Fill_PocketTMHM[] =          _("Fill Pocket TMHM");
 static const u8 sDebugText_Fill_PocketBerries[] =       _("Fill Pocket Berries");
+static const u8 sDebugText_Fill_PocketMegaStones[]=     _("Fill Pocket MegaStones");
 static const u8 sDebugText_Fill_PocketKeyItems[] =      _("Fill Pocket KeyItems");
 // Sound Menu
 static const u8 sDebugText_Sound_SFX[] =                _("SFX…{CLEAR_TO 110}{RIGHT_ARROW}");
 static const u8 sDebugText_Sound_SFX_ID[] =   	        _("SFX Id: {STR_VAR_3}   {START_BUTTON} Stop\n{STR_VAR_1}    \n{STR_VAR_2}");
 static const u8 sDebugText_Sound_Music[] =              _("Music…{CLEAR_TO 110}{RIGHT_ARROW}");
 static const u8 sDebugText_Sound_Music_ID[] =           _("Music Id: {STR_VAR_3}   {START_BUTTON} Stop\n{STR_VAR_1}    \n{STR_VAR_2}");
->>>>>>> origin/upcoming
 
 static const u8 sDebugText_Digit_1[] =        _("{LEFT_ARROW}+1{RIGHT_ARROW}        ");
 static const u8 sDebugText_Digit_10[] =       _("{LEFT_ARROW}+10{RIGHT_ARROW}       ");
@@ -759,13 +742,13 @@ static const struct ListMenuItem sDebugMenu_Items_Fill[] =
 {
     [DEBUG_FILL_MENU_ITEM_PC_BOXES_FAST]    = {sDebugText_Fill_Pc_Fast,         DEBUG_FILL_MENU_ITEM_PC_BOXES_FAST},
     [DEBUG_FILL_MENU_ITEM_PC_BOXES_SLOW]    = {sDebugText_Fill_Pc_Slow,         DEBUG_FILL_MENU_ITEM_PC_BOXES_SLOW},
-    [DEBUG_FILL_MENU_ITEM_PC_ITEMS]         = {sDebugText_Fill_Pc_Items ,       DEBUG_FILL_MENU_ITEM_PC_ITEMS},
+    [DEBUG_FILL_MENU_ITEM_PC_ITEMS]         = {sDebugText_Fill_Pc_Items,       DEBUG_FILL_MENU_ITEM_PC_ITEMS},
     [DEBUG_FILL_MENU_ITEM_POCKET_ITEMS]     = {sDebugText_Fill_PocketItems,     DEBUG_FILL_MENU_ITEM_POCKET_ITEMS},
     [DEBUG_FILL_MENU_ITEM_POCKET_BALLS]     = {sDebugText_Fill_PocketPokeBalls, DEBUG_FILL_MENU_ITEM_POCKET_BALLS},
     [DEBUG_FILL_MENU_ITEM_POCKET_TMHM]      = {sDebugText_Fill_PocketTMHM,      DEBUG_FILL_MENU_ITEM_POCKET_TMHM},
     [DEBUG_FILL_MENU_ITEM_POCKET_BERRIES]   = {sDebugText_Fill_PocketBerries,   DEBUG_FILL_MENU_ITEM_POCKET_BERRIES},
     [DEBUG_FILL_MENU_ITEM_POCKET_KEY_ITEMS] = {sDebugText_Fill_PocketKeyItems,  DEBUG_FILL_MENU_ITEM_POCKET_KEY_ITEMS},
-     [DEBUG_FILL_MENU_ITEM_POCKET_MEGA_STONES] = {sDebugText_Fill_PocketMegaStones,  DEBUG_FILL_MENU_ITEM_POCKET_MEGA_STONES},
+    [DEBUG_FILL_MENU_ITEM_POCKET_MEGA_STONES] = {sDebugText_Fill_PocketMegaStones,  DEBUG_FILL_MENU_ITEM_POCKET_MEGA_STONES},
 };
 
 static const struct ListMenuItem sDebugMenu_Items_Sound[] =

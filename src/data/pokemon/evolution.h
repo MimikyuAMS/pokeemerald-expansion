@@ -79,8 +79,8 @@ const struct Evolution gEvolutionTable[NUM_SPECIES][EVOS_PER_MON] =
     [SPECIES_KRABBY]                = {{EVO_LEVEL, 28, SPECIES_KINGLER}},
     [SPECIES_VOLTORB]               = {{EVO_LEVEL, 30, SPECIES_ELECTRODE}},
     [SPECIES_VOLTORB_HISUIAN]       = {{EVO_ITEM, ITEM_LEAF_STONE, SPECIES_ELECTRODE_HISUIAN}},
-    [SPECIES_EXEGGCUTE]             = {{EVO_ITEM, ITEM_LEAF_STONE, SPECIES_EXEGGUTOR},
-                                       {EVO_NONE, 0, SPECIES_EXEGGUTOR_ALOLAN}},
+    [SPECIES_EXEGGCUTE]             = {{EVO_ITEM, ITEM_LEAF_STONE, SPECIES_EXEGGUTOR_ALOLAN},
+                                       {EVO_NONE, 0, SPECIES_EXEGGUTOR}},
     [SPECIES_CUBONE]                = {{EVO_LEVEL, 28, SPECIES_MAROWAK},
                                        {EVO_NONE, 0, SPECIES_MAROWAK_ALOLAN}},
 #if P_GEN_4_POKEMON == TRUE

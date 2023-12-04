@@ -40,6 +40,10 @@ BirthIsland_Harbor_Text_SailorReturn:
 	.string "What an oddly shaped island, eh?\n"
 	.string "Do you want to return to LILYCOVE?$"
 
+Trinity_Harbor_Text_SailorReturn:
+	.string "Ya know, I was born n' raised here?\n"
+	.string "Anyways, wanna to return to LILYCOVE?$"
+
 EventTicket_Text_OddTicketsWhereTo:
 	.string "Is it you who brought those\n"
 	.string "odd tickets?\p"

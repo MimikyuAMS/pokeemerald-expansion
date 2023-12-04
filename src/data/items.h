@@ -8866,10 +8866,21 @@ const struct Item gItems[] =
         .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
     },
 
+    [ITEM_TRINITY_TICKET] =
+    {
+        .name = _("Tri Ticket"),
+        .price = 10000,
+        .description = sTrinityTicketDesc,
+        .importance = 1,
+        .pocket = POCKET_KEY_ITEMS,
+        .type = ITEM_USE_BAG_MENU,
+        .fieldUseFunc = ItemUseOutOfBattle_CannotUse,
+    },
+
     [ITEM_EON_TICKET] =
     {
         .name = _("Eon Ticket"),
-        .price = 0,
+        .price = 10000,
         .description = sEonTicketDesc,
         .importance = 1,
         .pocket = POCKET_KEY_ITEMS,
@@ -8881,7 +8892,7 @@ const struct Item gItems[] =
     [ITEM_MYSTIC_TICKET] =
     {
         .name = _("Mystic Ticket"),
-        .price = 0,
+        .price = 10000,
         .description = sMysticTicketDesc,
         .importance = 1,
         .pocket = POCKET_KEY_ITEMS,
@@ -8892,7 +8903,7 @@ const struct Item gItems[] =
     [ITEM_AURORA_TICKET] =
     {
         .name = _("Aurora Ticket"),
-        .price = 0,
+        .price = 10000,
         .description = sAuroraTicketDesc,
         .importance = 1,
         .pocket = POCKET_KEY_ITEMS,
@@ -8903,7 +8914,7 @@ const struct Item gItems[] =
     [ITEM_OLD_SEA_MAP] =
     {
         .name = _("Old Sea Map"),
-        .price = 0,
+        .price = 10000,
         .description = sOldSeaMapDesc,
         .importance = 1,
         .pocket = POCKET_KEY_ITEMS,

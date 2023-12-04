@@ -3665,6 +3665,11 @@ static const u8 sSSTicketDesc[] = _(
     "for sailing on a\n"
     "ferry.");
 
+static const u8 sTrinityTicketDesc[] = _(
+    "The ticket for a\n"
+    "ferry to Trinity\n"
+    "Island.");
+
 static const u8 sEonTicketDesc[] = _(
     "The ticket for a\n"
     "ferry to a distant\n"

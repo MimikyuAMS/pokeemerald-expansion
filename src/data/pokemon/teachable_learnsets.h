@@ -1472,6 +1472,7 @@ static const u16 sNinetalesTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_CALM_MIND,
     MOVE_DIG,
+    MOVE_PSYCHIC,
     MOVE_DOUBLE_TEAM,
     MOVE_FACADE,
     MOVE_FIRE_BLAST,

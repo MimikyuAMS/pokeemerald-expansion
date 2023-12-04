@@ -773,6 +773,7 @@ const u32 *const gItemIconTable[ITEMS_COUNT + 1][2] =
     [ITEM_TEACHY_TV] = {gItemIcon_TeachyTV, gItemIconPalette_TeachyTV},
     // Story Key Items
     [ITEM_SS_TICKET] = {gItemIcon_SSTicket, gItemIconPalette_SSTicket},
+    [ITEM_TRINITY_TICKET] = {gItemIcon_TrinityTicket, gItemIconPalette_TrinityTicket},
     [ITEM_EON_TICKET] = {gItemIcon_EonTicket, gItemIconPalette_EonTicket},
     [ITEM_MYSTIC_TICKET] = {gItemIcon_MysticTicket, gItemIconPalette_MysticTicket},
     [ITEM_AURORA_TICKET] = {gItemIcon_AuroraTicket, gItemIconPalette_AuroraTicket},

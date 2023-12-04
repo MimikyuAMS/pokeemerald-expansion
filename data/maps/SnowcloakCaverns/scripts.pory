@@ -1,0 +1,20 @@
+mapscripts SnowcloakCaverns_MapScripts {
+}
+
+script RocketGrunt7 {
+    trainerbattle_single(ROCKET_BATTLE_7, RocketM4_Intro, RocketM4_Outro)
+    msgbox(PostBattleRocketM4, MSGBOX_DEFAULT)
+    end
+}
+
+text RocketM4_Intro { 
+    "It is cold here, too cold..."
+}
+
+text RocketM4_Outro {
+    "Suicune lives here, I am a terrible guard"
+}
+
+text PostBattleRocketM4 {
+    "You can proceed..."
+}

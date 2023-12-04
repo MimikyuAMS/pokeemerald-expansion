@@ -856,12 +856,19 @@
 #define TRAINER_LEAF                        852
 #define TRAINER_BRENDAN_PLACEHOLDER         853
 #define TRAINER_MAY_PLACEHOLDER             854
-
+#define ROCKET_BATTLE_1                     855
+#define ROCKET_BATTLE_2                     856
+#define ROCKET_BATTLE_3                     857
+#define ROCKET_BATTLE_4                     858
+#define ROCKET_BATTLE_5                     859
+#define ROCKET_BATTLE_6                     860
+#define ROCKET_BATTLE_7                     861
+#define ROCKET_AIDEN                        862
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 9 additional trainers before trainer flag space overflows
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define TRAINERS_COUNT                      855
+#define TRAINERS_COUNT                      863
 #define MAX_TRAINERS_COUNT                  864
 
 #endif  // GUARD_CONSTANTS_OPPONENTS_H

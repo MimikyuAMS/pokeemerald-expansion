@@ -1,0 +1,40 @@
+mapscripts MtPepperthorn_MapScripts {
+}
+
+script RocketGrunt5 {
+    trainerbattle_single(ROCKET_BATTLE_5, RocketF3_Intro, RocketF3_Outro)
+    msgbox(PostBattleRocketF2, MSGBOX_DEFAULT)
+    waitmessage
+    end
+}
+
+text RocketF3_Intro { 
+    "It is very hot here..."
+}
+
+text RocketF3_Outro {
+    "Why was I positioned here and not in Johto..."
+}
+
+text PostBattleRocketF3 {
+    "Aiden was an Admin before he led the Trinity Branch"
+}
+
+script RocketGrunt6 {
+    trainerbattle_single(ROCKET_BATTLE_6, RocketM3_Intro, RocketM3_Outro)
+    msgbox(PostBattleRocketM3, MSGBOX_DEFAULT)
+    waitmessage
+    end
+}
+
+text RocketM3_Intro { 
+    "Entei, known to cause eruptions when it barks\n it will help us in our mission"
+}
+
+text RocketM3_Outro {
+    "How unfortunate that you are going to steal it"
+}
+
+text PostBattleRocketM3 {
+    "You can proceed..."
+}

@@ -1,0 +1,47 @@
+mapscripts Trinity_Town_Pokecenter_MapScripts {
+    MAP_SCRIPT_ON_TRANSITION: Trinity_PokemonCenter_OnTransition
+}
+script Trinity_PokemonCenter_OnTransition {
+   	setrespawn(HEAL_LOCATION_TRINITY_TOWN)
+	end 
+}
+ 
+script NurseJoy{
+    lockall
+    faceplayer
+    msgbox("Would you like me to heal your party?", MSGBOX_YESNO)
+    if(var(VAR_RESULT) == YES){
+        incrementgamestat(GAME_STAT_USED_POKECENTER)
+        special(HealPlayerParty)
+        msgbox("Come again soon.")
+        waitmessage
+        releaseall
+        end
+    }
+    else{
+        msgbox("Have a nice day", MSGBOX_NPC)
+    }
+}
+
+
+script Trinity_Clerk{
+	lockall
+	faceplayer
+	message("Hi, I sell various items.")
+	waitmessage
+	pokemart(TrinityMart)
+	msgbox("Thanks for your purchase!")
+	releaseall
+	end
+}
+
+raw` 
+
+.align 2
+TrinityMart::
+	.2byte ITEM_ULTRA_BALL
+    .2byte ITEM_FULL_RESTORE
+    .2byte ITEM_REVIVE
+	.2byte ITEM_NONE
+	releaseall
+	end

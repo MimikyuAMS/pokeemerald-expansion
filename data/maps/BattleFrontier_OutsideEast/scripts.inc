@@ -437,3 +437,33 @@ BattleFrontier_OutsideEast_Text_StickyMonWithLongTail:
 	.string "with a long tail up ahead!\p"
 	.string "It was hiding under a boulder, and\n"
 	.string "it kept staring at me!$"
+
+BattleFrontier_TicketSeller::
+	lockall
+	faceplayer
+	message BattleFrontier_TicketSeller_Text_0
+	waitmessage
+	pokemart TicketStore
+	msgbox BattleFrontier_TicketSeller_Text_1
+	releaseall
+	end
+
+
+ 
+
+.align 2
+TicketStore::
+	.2byte ITEM_OLD_SEA_MAP
+	.2byte ITEM_AURORA_TICKET
+	.2byte ITEM_EON_TICKET
+	.2byte ITEM_MYSTIC_TICKET
+	.2byte ITEM_TRINITY_TICKET
+	.2byte ITEM_NONE
+	releaseall
+	end
+
+BattleFrontier_TicketSeller_Text_0:
+	.string "Hi, I want to get rid of these tickets.$"
+
+BattleFrontier_TicketSeller_Text_1:
+	.string "Thanks friend!$"

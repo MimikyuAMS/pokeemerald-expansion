@@ -94,7 +94,26 @@
     "Underwater_Route105",
     "Underwater_Route125",
     "MegaStoneStore",
-    "DewfordSavannah"
+    "DewfordSavannah",
+    "PetalburgForestGrotto",
+    "PetalburgWoodsCenter",
+    "Trinity_Archipelago_Docks",
+    "Trinity_Town",
+    "Three_Corners_Bay",
+    "Trinity_Town_Pokecenter",
+    "Trinity_Town_Pokecenter_F2",
+    "Trinity_Town_House",
+    "ThurnicaneIsland",
+    "BlizzaguaIsland",
+    "FlameforgeIsland",
+    "Shockola_Factory",
+    "MimikyusRoom",
+    "LittlerootCaverns",
+    "BirchsGarden",
+    "BirchsSecretHouse",
+    "PyropuffCrag",
+    "LeauLake",
+    "BluteForest"
   ],
   "gMapGroup_IndoorLittleroot": [
     "LittlerootTown_BrendansHouse_1F",
@@ -431,7 +450,12 @@
     "TerraCave_Entrance",
     "TerraCave_End",
     "AlteringCave",
-    "MeteorFalls_StevensCave"
+    "MeteorFalls_StevensCave",
+    "EmberCaverns",
+    "MtPepperthorn",
+    "SnowcloakCaverns",
+    "SnowcloakCavernsB1",
+    "RocketHideoutFloor1"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

@@ -1064,3 +1064,53 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/MegaStoneStore/scripts.inc"
 
 	.include "data/maps/DewfordSavannah/scripts.inc"
+
+	.include "data/maps/PetalburgForestGrotto/scripts.inc"
+
+	.include "data/maps/PetalburgWoodsCenter/scripts.inc"
+
+	.include "data/maps/EmberCaverns/scripts.inc"
+
+	.include "data/maps/Trinity_Archipelago_Docks/scripts.inc"
+
+	.include "data/maps/Trinity_Town/scripts.inc"
+
+	
+
+	.include "data/maps/Three_Corners_Bay/scripts.inc"
+
+	.include "data/maps/Trinity_Town_Pokecenter/scripts.inc"
+
+	.include "data/maps/Trinity_Town_Pokecenter_F2/scripts.inc"
+
+	.include "data/maps/Trinity_Town_House/scripts.inc"
+
+	.include "data/maps/ThurnicaneIsland/scripts.inc"
+
+	.include "data/maps/BlizzaguaIsland/scripts.inc"
+
+	.include "data/maps/FlameforgeIsland/scripts.inc"
+
+	.include "data/maps/Shockola_Factory/scripts.inc"
+
+	.include "data/maps/MtPepperthorn/scripts.inc"
+
+	.include "data/maps/SnowcloakCaverns/scripts.inc"
+
+	.include "data/maps/SnowcloakCavernsB1/scripts.inc"
+
+	.include "data/maps/RocketHideoutFloor1/scripts.inc"
+
+	.include "data/maps/MimikyusRoom/scripts.inc"
+
+	.include "data/maps/LittlerootCaverns/scripts.inc"
+
+	.include "data/maps/BirchsGarden/scripts.inc"
+
+	.include "data/maps/BirchsSecretHouse/scripts.inc"
+
+	.include "data/maps/PyropuffCrag/scripts.inc"
+
+	.include "data/maps/LeauLake/scripts.inc"
+
+	.include "data/maps/BluteForest/scripts.inc"

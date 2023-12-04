@@ -1869,6 +1869,9 @@ const u32 gItemIconPalette_TeachyTV[] = INCBIN_U32("graphics/items/icon_palettes
 const u32 gItemIcon_SSTicket[] = INCBIN_U32("graphics/items/icons/ss_ticket.4bpp.lz");
 const u32 gItemIconPalette_SSTicket[] = INCBIN_U32("graphics/items/icon_palettes/ss_ticket.gbapal.lz");
 
+const u32 gItemIcon_TrinityTicket[] = INCBIN_U32("graphics/items/icons/trinity_ticket.4bpp.lz");
+const u32 gItemIconPalette_TrinityTicket[] = INCBIN_U32("graphics/items/icon_palettes/trinity_ticket.gbapal.lz");
+
 const u32 gItemIcon_EonTicket[] = INCBIN_U32("graphics/items/icons/eon_ticket.4bpp.lz");
 const u32 gItemIconPalette_EonTicket[] = INCBIN_U32("graphics/items/icon_palettes/eon_ticket.gbapal.lz");
 

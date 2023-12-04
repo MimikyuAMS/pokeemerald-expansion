@@ -1,0 +1,161 @@
+{
+  "id": "MAP_TRINITY_TOWN",
+  "name": "Trinity_Town",
+  "layout": "LAYOUT_TRINITY_TOWN",
+  "music": "MUS_RG_PALLET",
+  "region_map_section": "MAPSEC_TRINITY_ARCIPELAGO",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_TOWN",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": [
+    {
+      "map": "MAP_THREE_CORNERS_BAY",
+      "offset": -13,
+      "direction": "up"
+    }
+  ],
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_OLD_MAN",
+      "x": 36,
+      "y": 17,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Trinity_Village_Elder1",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_TUBER_M",
+      "x": 43,
+      "y": 26,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WALK_SEQUENCE_UP_LEFT_DOWN_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Trinity_Kid2",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_TUBER_F",
+      "x": 42,
+      "y": 25,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_WALK_SEQUENCE_DOWN_RIGHT_UP_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "Trinity_Kid1",
+      "flag": "0"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_F",
+      "x": 40,
+      "y": 7,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_LEFT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "10",
+      "script": "Rocket_Grunt1",
+      "flag": "FLAG_AIDEN_DEFEATED"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
+      "x": 32,
+      "y": 2,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "10",
+      "script": "RocketGrunt2",
+      "flag": "FLAG_AIDEN_DEFEATED"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
+      "x": 36,
+      "y": 32,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_UP",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NONE",
+      "trainer_sight_or_berry_tree_id": "0",
+      "script": "RocketGuard2",
+      "flag": "FLAG_HIDE_ROCKET_GUARD"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 36,
+      "y": 33,
+      "elevation": 0,
+      "dest_map": "MAP_TRINITY_ARCHIPELAGO_DOCKS",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 88,
+      "y": 23,
+      "elevation": 0,
+      "dest_map": "MAP_THREE_CORNERS_BAY",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 28,
+      "y": 15,
+      "elevation": 0,
+      "dest_map": "MAP_TRINITY_TOWN_POKECENTER",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 29,
+      "y": 25,
+      "elevation": 0,
+      "dest_map": "MAP_TRINITY_TOWN_HOUSE",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+    {
+      "type": "sign",
+      "x": 29,
+      "y": 15,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "Common_EventScript_ShowPokemonCenterSign"
+    },
+    {
+      "type": "sign",
+      "x": 30,
+      "y": 15,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_NORTH",
+      "script": "Common_EventScript_ShowPokemonCenterSign"
+    },
+    {
+      "type": "sign",
+      "x": 37,
+      "y": 22,
+      "elevation": 0,
+      "player_facing_dir": "BG_EVENT_PLAYER_FACING_ANY",
+      "script": "Trinity_Sign"
+    }
+  ]
+}

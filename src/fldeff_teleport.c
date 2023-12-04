@@ -6,13 +6,23 @@
 #include "overworld.h"
 #include "task.h"
 #include "constants/field_effects.h"
+#include "constants/flags.h"
 
 static void FieldCallback_Teleport(void);
 static void StartTeleportFieldEffect(void);
 
 bool8 SetUpFieldMove_Teleport(void)
 {
-    if (Overworld_MapTypeAllowsTeleportAndFly(gMapHeader.mapType) == TRUE)
+    if (FLAG_AIDEN_DEFEATED == TRUE)
+    {
+        (FLAG_LEGENDARY_BEASTS_CAUGHT_TRAP == FALSE);
+    }
+    if (FLAG_LEGENDARY_BEASTS_CAUGHT_TRAP == TRUE)
+    {
+    (Overworld_MapTypeAllowsTeleportAndFly(gMapHeader.mapType) == FALSE);
+    }
+
+    else if (Overworld_MapTypeAllowsTeleportAndFly(gMapHeader.mapType) == TRUE)
     {
         gFieldCallback2 = FieldCallback_PrepareFadeInFromMenu;
         gPostMenuFieldCallback = FieldCallback_Teleport;

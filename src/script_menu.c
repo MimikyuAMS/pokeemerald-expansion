@@ -533,6 +533,23 @@ static void CreateLilycoveSSTidalMultichoice(void)
         }
     }
 
+    if (CheckBagHasItem(ITEM_TRINITY_TICKET, 1) == TRUE && FlagGet(FLAG_ENABLE_SHIP_TRINITY_ARCHIPELAGO) == TRUE)
+    {
+        if (gSpecialVar_0x8004 == 0)
+        {
+            sLilycoveSSTidalSelections[selectionCount] = SSTIDAL_SELECTION_TRINITY_ARCHIPELAGO;
+            selectionCount++;
+        }
+
+        if (gSpecialVar_0x8004 == 1 && FlagGet(FLAG_SHOWN_TRINITY_TICKET) == FALSE)
+        {
+            sLilycoveSSTidalSelections[selectionCount] = SSTIDAL_SELECTION_TRINITY_ARCHIPELAGO;
+            selectionCount++;
+            FlagSet(FLAG_SHOWN_TRINITY_TICKET);
+        }
+    }
+
+
     if (CheckBagHasItem(ITEM_AURORA_TICKET, 1) == TRUE && FlagGet(FLAG_ENABLE_SHIP_BIRTH_ISLAND) == TRUE)
     {
         if (gSpecialVar_0x8004 == 0)

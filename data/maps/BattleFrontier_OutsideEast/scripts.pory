@@ -439,3 +439,27 @@ BattleFrontier_OutsideEast_Text_StickyMonWithLongTail:
 	.string "It was hiding under a boulder, and\n"
 	.string "it kept staring at me!$"
 `
+
+script BattleFrontier_TicketSeller {
+	lockall
+	faceplayer
+	message("Hi, I want to get rid of these tickets.")
+	waitmessage
+	pokemart(TicketStore)
+	msgbox("Thanks friend!")
+	releaseall
+	end
+}
+
+raw` 
+
+.align 2
+TicketStore::
+	.2byte ITEM_OLD_SEA_MAP
+	.2byte ITEM_AURORA_TICKET
+	.2byte ITEM_EON_TICKET
+	.2byte ITEM_MYSTIC_TICKET
+	.2byte ITEM_TRINITY_TICKET
+	.2byte ITEM_NONE
+	releaseall
+	end

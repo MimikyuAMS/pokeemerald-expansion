@@ -2,7 +2,7 @@
   "id": "MAP_DEWFORD_SAVANNAH",
   "name": "DewfordSavannah",
   "layout": "LAYOUT_DEWFORD_SAVANNAH",
-  "music": "MUS_SAFARI_ZONE",
+  "music": "MUS_ROUTE110",
   "region_map_section": "MAPSEC_DEWFORD_TOWN",
   "requires_flash": false,
   "weather": "WEATHER_NONE",

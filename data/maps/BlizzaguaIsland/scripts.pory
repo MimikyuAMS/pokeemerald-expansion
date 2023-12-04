@@ -1,0 +1,53 @@
+mapscripts BlizzaguaIsland_MapScripts{
+
+}
+
+script SuicuneEncounter {
+    lockall
+    playmoncry(SPECIES_SUICUNE, CRY_MODE_ENCOUNTER)
+    delay(40)
+    waitmoncry
+    setwildbattle(SPECIES_SUICUNE, 60)
+    special(BattleSetup_StartLegendaryBattle)
+    dowildbattle
+
+    specialvar(VAR_RESULT, GetBattleOutcome)
+    if(var(VAR_RESULT) == B_OUTCOME_CAUGHT){
+        call(CaughtSuicune)
+    }
+    elif(var(VAR_RESULT) == B_OUTCOME_WON){
+        call(WonSuicune)
+    }
+
+    elif(var(VAR_RESULT) == B_OUTCOME_RAN){
+        call(RanAwaySuicune)
+    }
+
+    elif(var(VAR_RESULT) == B_OUTCOME_PLAYER_TELEPORTED){
+        call(RanAwaySuicune)
+    }
+    waitmessage
+    releaseall
+    }
+
+script CaughtSuicune {
+    fadescreen(FADE_TO_BLACK)
+    removeobject(1)
+    setflag(FLAG_CAUGHT_SUICUNE)
+    fadescreen(FADE_FROM_BLACK)
+    return
+}
+
+script RanAwaySuicune {
+    playmoncry(SPECIES_SUICUNE, CRY_MODE_ENCOUNTER)
+    delay(20)
+    msgbox("Suicune wants to battle again!")
+    return
+}
+
+script WonSuicune {
+    playmoncry(SPECIES_SUICUNE, CRY_MODE_ENCOUNTER)
+    delay(20)
+    msgbox("Suicune wants to battle again!")
+    return
+}

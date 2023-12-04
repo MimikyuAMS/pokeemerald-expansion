@@ -1,0 +1,112 @@
+mapscripts Trinity_Town_MapScripts {
+MAP_SCRIPT_ON_TRANSITION: Trinity_Town_On_Tranisition
+}
+
+script Trinity_Town_On_Tranisition{
+    if (flag(FLAG_LEGENDARY_BEASTS_CAUGHT_TRAP) == FALSE){
+        call(HideGuard)
+    }
+    elif (flag(FLAG_LEGENDARY_BEASTS_CAUGHT_TRAP) == TRUE){
+        clearflag(FLAG_HIDE_ROCKET_GUARD)
+    }
+
+    elif (flag(FLAG_LEGENDARY_BEASTS_CAUGHT_TRAP) && flag(FLAG_AIDEN_DEFEATED) == TRUE){
+        call(HideRocket)
+    }
+end
+}
+
+script HideGuard{
+    removeobject(6)
+    setflag(FLAG_HIDE_ROCKET_GUARD)
+    end
+}
+
+script HideRocket{
+    removeobject(4)
+    removeobject(5)
+    removeobject(6)
+    setflag(FLAG_HIDE_ROCKET_GUARD)
+    end
+}
+
+script Trinity_Village_Elder1{
+    lockall
+    faceplayer
+    if (flag(FLAG_AIDEN_DEFEATED) == TRUE){
+        msgbox("Thank you, you have saved us")
+    }
+    else{
+    msgbox("Those Team Rocket Grunts... \n They are destroying the island's \p ecosystem!")
+    releaseall
+    end}
+}
+
+script Trinity_Kid1{
+    lockall
+    faceplayer
+    msgbox("I love playing in the Tidepool!")
+    releaseall
+    end
+}
+
+script Trinity_Kid2{
+    lockall
+    faceplayer
+    msgbox("I once got pinched by a Krabby, \n it hurt!")
+    releaseall
+    end
+}
+
+script Trinity_Sign{
+    lockall
+    msgbox("Trinity Rock, The Sacred Triangle")
+    releaseall
+    end
+}
+
+script Rocket_Grunt1{
+    trainerbattle_single(ROCKET_BATTLE_1, RocketF1_Intro, RocketF1_Outro)
+    msgbox(PostBattleRocketF1, MSGBOX_AUTOCLOSE)
+    waitmessage
+    end
+}
+
+text RocketF1_Intro { 
+    "Man, being posted right at the \n edge of this Town blows..."
+}
+
+text RocketF1_Outro {
+    "Actually, losing to you blows more"
+}
+
+text PostBattleRocketF1 {
+    "Buzz off will you? I already lost \n to another child a few years ago!"
+}
+
+script RocketGuard2{
+    lockall
+    faceplayer
+    msgbox("Sorry mate, the boss wants \n to see ya. \p Check out that island I was at in the Bay.")
+    releaseall
+    end
+}
+
+script RocketGrunt2 {
+    trainerbattle_single(ROCKET_BATTLE_2, RocketM1_Intro, RocketM1_Outro)
+    msgbox(PostBattleRocketM1, MSGBOX_DEFAULT)
+    waitmessage
+    end
+}
+
+text RocketM1_Intro { 
+    "The ocean is nice, it reminds me of home..."
+}
+
+text RocketM1_Outro {
+    "Even when I lose, one thing remains true..."
+}
+
+text PostBattleRocketM1 {
+    "The ocean is serene..."
+}

@@ -73,6 +73,7 @@
 #include "constants/party_menu.h"
 #include "constants/rgb.h"
 #include "constants/songs.h"
+#include "constants/flags.h"
 
 enum {
     MENU_SUMMARY,
@@ -3920,11 +3921,21 @@ static void DisplayCantUseSurfMessage(void)
 }
 
 static bool8 SetUpFieldMove_Fly(void)
+
 {
+    if (FLAG_AIDEN_DEFEATED == TRUE)
+        (FLAG_LEGENDARY_BEASTS_CAUGHT_TRAP == FALSE);
+    if (FLAG_LEGENDARY_BEASTS_CAUGHT_TRAP == TRUE)
+        (Overworld_MapTypeAllowsTeleportAndFly(gMapHeader.mapType) == FALSE);
+    else if 
+    (FLAG_LEGENDARY_BEASTS_CAUGHT_TRAP == FALSE)
+    (Overworld_MapTypeAllowsTeleportAndFly(gMapHeader.mapType) == TRUE);
+    
     if (Overworld_MapTypeAllowsTeleportAndFly(gMapHeader.mapType) == TRUE)
         return TRUE;
     else
         return FALSE;
+
 }
 
 void CB2_ReturnToPartyMenuFromFlyMap(void)

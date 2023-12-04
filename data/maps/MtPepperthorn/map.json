@@ -1,0 +1,66 @@
+{
+  "id": "MAP_MT_PEPPERTHORN",
+  "name": "MtPepperthorn",
+  "layout": "LAYOUT_MT_PEPPERTHORN",
+  "music": "MUS_MT_CHIMNEY",
+  "region_map_section": "MAPSEC_TRINITY_ARCIPELAGO",
+  "requires_flash": false,
+  "weather": "WEATHER_NONE",
+  "map_type": "MAP_TYPE_UNDERGROUND",
+  "allow_cycling": false,
+  "allow_escaping": true,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_F",
+      "x": 2,
+      "y": 6,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "10",
+      "script": "RocketGrunt5",
+      "flag": "FLAG_AIDEN_DEFEATED"
+    },
+    {
+      "graphics_id": "OBJ_EVENT_GFX_ROCKET_M",
+      "x": 18,
+      "y": 2,
+      "elevation": 0,
+      "movement_type": "MOVEMENT_TYPE_FACE_RIGHT",
+      "movement_range_x": 0,
+      "movement_range_y": 0,
+      "trainer_type": "TRAINER_TYPE_NORMAL",
+      "trainer_sight_or_berry_tree_id": "10",
+      "script": "RocketGrunt6",
+      "flag": "FLAG_AIDEN_DEFEATED"
+    }
+  ],
+  "warp_events": [
+    {
+      "x": 20,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_FLAMEFORGE_ISLAND",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 3,
+      "y": 18,
+      "elevation": 0,
+      "dest_map": "MAP_FLAMEFORGE_ISLAND",
+      "dest_warp_id": "0"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}
