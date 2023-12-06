@@ -1114,3 +1114,5 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/LeauLake/scripts.inc"
 
 	.include "data/maps/BluteForest/scripts.inc"
+
+	.include "data/maps/RustburoPark/scripts.inc"

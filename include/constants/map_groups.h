@@ -84,6 +84,7 @@
 #define MAP_PYROPUFF_CRAG              (75 | (0 << 8))
 #define MAP_LEAU_LAKE                  (76 | (0 << 8))
 #define MAP_BLUTE_FOREST               (77 | (0 << 8))
+#define MAP_RUSTBURO_PARK              (78 | (0 << 8))
 
 // gMapGroup_IndoorLittleroot
 #define MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F    (0 | (1 << 8))
