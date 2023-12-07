@@ -427,6 +427,8 @@ Route110_EventScript_MayBattleMudkip::
 
 Route110_EventScript_MayDefeated::
 	msgbox Route110_Text_MayTakeThis, MSGBOX_DEFAULT
+	call Route110_EventScript_GiveZRing
+	msgbox Route110_Text_ZRing, MSGBOX_DEFAULT
 	call Route110_EventScript_GiveItemfinder
 	msgbox Route110_Text_MayExplainItemfinder, MSGBOX_DEFAULT
 	goto Route110_EventScript_RivalExit
@@ -457,6 +459,8 @@ Route110_EventScript_BrendanBattleMudkip::
 
 Route110_EventScript_BrendanDefeated::
 	msgbox Route110_Text_BrendanTakeThis, MSGBOX_DEFAULT
+	call Route110_EventScript_GiveZRing
+	msgbox Route110_Text_ZRing, MSGBOX_DEFAULT
 	call Route110_EventScript_GiveItemfinder
 	msgbox Route110_Text_BrendanExplainItemfinder, MSGBOX_DEFAULT
 	goto Route110_EventScript_RivalExit
@@ -464,6 +468,10 @@ Route110_EventScript_BrendanDefeated::
 
 Route110_EventScript_GiveItemfinder::
 	giveitem ITEM_DOWSING_MACHINE
+	return
+
+Route110_EventScript_GiveZRing::
+	giveitem ITEM_Z_POWER_RING
 	return
 
 Route110_EventScript_RivalExit::
@@ -810,7 +818,10 @@ Route110_Text_BrendanExplainItemfinder:
 	.string "a sound.\p"
 	.string "Anyway, I'm off to look for new\n"
 	.string "POKéMON.$"
-
+Route110_Text_ZRing:
+	.string "BRENDAN: This is a ZRING. \p"
+	.string "It unlocks a special move for your\n"
+	.string "POKéMON.$"
 Route110_Text_RideBikeAtFullSpeed:
 	.string "Wouldn't it be great to ride a BIKE\n"
 	.string "at full speed on CYCLING ROAD?$"

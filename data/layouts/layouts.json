@@ -4700,6 +4700,16 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/MewtwoRoom/border.bin",
       "blockdata_filepath": "data/layouts/MewtwoRoom/map.bin"
+    },
+    {
+      "id": "LAYOUT_ZSTONE_STORE",
+      "name": "ZStoneStore_Layout",
+      "width": 10,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_Facility",
+      "border_filepath": "data/layouts/ZStoneStore/border.bin",
+      "blockdata_filepath": "data/layouts/ZStoneStore/map.bin"
     }
   ]
 }

@@ -132,5 +132,15 @@ VerdanturfTown_EventScript_MegaStoneStoreSign::
 	end
 
 
+VerdanturfTown_EventScript_ZStoreSign::
+	lockall
+	msgbox VerdanturfTown_EventScript_ZStoreSign_Text_0
+	releaseall
+	end
+
+
 VerdanturfTown_EventScript_MegaStoneStoreSign_Text_0:
 	.string "The Mega Stone Emporium$"
+
+VerdanturfTown_EventScript_ZStoreSign_Text_0:
+	.string "The Z Crystal Emporium$"

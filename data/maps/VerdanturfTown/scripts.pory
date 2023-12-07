@@ -133,3 +133,10 @@ script VerdanturfTown_EventScript_MegaStoneStoreSign {
     releaseall
     end
 }
+
+script VerdanturfTown_EventScript_ZStoreSign {
+    lockall
+	msgbox("The Z Crystal Emporium")
+    releaseall
+    end
+}
