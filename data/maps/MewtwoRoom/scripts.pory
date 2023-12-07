@@ -1,5 +1,5 @@
 mapscripts MewtwoRoom_MapScripts {
-MAP_SCRIPT_ON_RESUME: MewtwoRoom_On_Tranisition
+MAP_SCRIPT_ON_TRANSITION: MewtwoRoom_On_Tranisition
 }
 
 script MewtwoRoom_On_Tranisition{

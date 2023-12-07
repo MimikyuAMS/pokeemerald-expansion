@@ -1,12 +1,5 @@
 mapscripts MeteorFalls_B1F_3R_MapScripts{
-MAP_SCRIPT_ON_RESUME: MeteorFalls_B1F_3R_On_Tranisition
-}
 
-script MeteorFalls_B1F_3R_On_Tranisition{
-    if (flag(FLAG_CAUGHT_JIRACHI) == TRUE){
-    removeobject(1)
-    end
-    }
 }
 
 script JirachiEncounter {

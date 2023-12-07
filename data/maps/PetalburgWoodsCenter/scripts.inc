@@ -1,15 +1,5 @@
 PetalburgWoodsCenter_MapScripts::
-	map_script MAP_SCRIPT_ON_RESUME, PetalburgWoodsCenter_On_Tranisition
 	.byte 0
-
-
-PetalburgWoodsCenter_On_Tranisition::
-	goto_if_set FLAG_CAUGHT_CELEBI, PetalburgWoodsCenter_On_Tranisition_1
-	return
-
-PetalburgWoodsCenter_On_Tranisition_1:
-	removeobject 1
-	end
 
 
 CelebiEncounter::

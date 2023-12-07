@@ -1,15 +1,5 @@
 BlizzaguaIsland_MapScripts::
-	map_script MAP_SCRIPT_ON_RESUME, BlizzaguaIsland_On_Tranisition
 	.byte 0
-
-
-BlizzaguaIsland_On_Tranisition::
-	goto_if_set FLAG_CAUGHT_SUICUNE, BlizzaguaIsland_On_Tranisition_1
-	return
-
-BlizzaguaIsland_On_Tranisition_1:
-	removeobject 1
-	end
 
 
 SuicuneEncounter::

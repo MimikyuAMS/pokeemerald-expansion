@@ -1,5 +1,5 @@
 MewtwoRoom_MapScripts::
-	map_script MAP_SCRIPT_ON_RESUME, MewtwoRoom_On_Tranisition
+	map_script MAP_SCRIPT_ON_TRANSITION, MewtwoRoom_On_Tranisition
 	.byte 0
 
 

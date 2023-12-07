@@ -1,15 +1,5 @@
 EmberCaverns_MapScripts::
-	map_script MAP_SCRIPT_ON_RESUME, EmberCaverns_On_Tranisition
 	.byte 0
-
-
-EmberCaverns_On_Tranisition::
-	goto_if_set FLAG_CAUGHT_MOLTRES, EmberCaverns_On_Tranisition_1
-	return
-
-EmberCaverns_On_Tranisition_1:
-	removeobject 1
-	end
 
 
 MoltresEncounter::

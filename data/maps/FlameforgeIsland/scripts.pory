@@ -1,12 +1,4 @@
 mapscripts FlameforgeIsland_MapScripts{
-MAP_SCRIPT_ON_RESUME: FlameforgeIsland_On_Tranisition
-}
-
-script FlameforgeIsland_On_Tranisition{
-    if (flag(FLAG_CAUGHT_ENTEI) == TRUE){
-    removeobject(1)
-    end
-}
 }
 
 script EnteiEncounter {

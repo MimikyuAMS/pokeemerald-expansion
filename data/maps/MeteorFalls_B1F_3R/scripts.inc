@@ -1,15 +1,5 @@
 MeteorFalls_B1F_3R_MapScripts::
-	map_script MAP_SCRIPT_ON_RESUME, MeteorFalls_B1F_3R_On_Tranisition
 	.byte 0
-
-
-MeteorFalls_B1F_3R_On_Tranisition::
-	goto_if_set FLAG_CAUGHT_JIRACHI, MeteorFalls_B1F_3R_On_Tranisition_1
-	return
-
-MeteorFalls_B1F_3R_On_Tranisition_1:
-	removeobject 1
-	end
 
 
 JirachiEncounter::
