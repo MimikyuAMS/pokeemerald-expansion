@@ -1,0 +1,53 @@
+mapscripts MeteorFalls_B1F_3R_MapScripts{
+
+}
+
+script JirachiEncounter {
+    lockall
+    playmoncry(SPECIES_JIRACHI, CRY_MODE_ENCOUNTER)
+    delay(40)
+    waitmoncry
+    setwildbattle(SPECIES_JIRACHI, 30)
+    special(BattleSetup_StartLegendaryBattle)
+    dowildbattle
+
+    specialvar(VAR_RESULT, GetBattleOutcome)
+    if(var(VAR_RESULT) == B_OUTCOME_CAUGHT){
+        call(CaughtJirachi)
+    }
+    elif(var(VAR_RESULT) == B_OUTCOME_WON){
+        call(WonJirachi)
+    }
+
+    elif(var(VAR_RESULT) == B_OUTCOME_RAN){
+        call(RanAwayJirachi)
+    }
+
+    elif(var(VAR_RESULT) == B_OUTCOME_PLAYER_TELEPORTED){
+        call(RanAwayJirachi)
+    }
+    waitmessage
+    releaseall
+    }
+
+script CaughtJirachi {
+    fadescreen(FADE_TO_BLACK)
+    removeobject(1)
+    setflag(FLAG_CAUGHT_JIRACHI)
+    fadescreen(FADE_FROM_BLACK)
+    return
+}
+
+script RanAwayJirachi {
+    playmoncry(SPECIES_JIRACHI, CRY_MODE_ENCOUNTER)
+    delay(20)
+    msgbox("Jirachi wants to battle again!")
+    return
+}
+
+script WonJirachi {
+    playmoncry(SPECIES_JIRACHI, CRY_MODE_ENCOUNTER)
+    delay(20)
+    msgbox("Jirachi wants to battle again!")
+    return
+}

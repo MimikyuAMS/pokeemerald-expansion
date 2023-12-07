@@ -263,3 +263,52 @@ NewMauville_Inside_Text_SteppedOnSwitchGeneratorStopped:
 	.string "The generator appears to have\n"
 	.string "stopped…$"
 `
+script ZapdosEncounter {
+    lockall
+    playmoncry(SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER)
+    delay(40)
+    waitmoncry
+    setwildbattle(SPECIES_ZAPDOS, 30)
+    special(BattleSetup_StartLegendaryBattle)
+    dowildbattle
+
+    specialvar(VAR_RESULT, GetBattleOutcome)
+    if(var(VAR_RESULT) == B_OUTCOME_CAUGHT){
+        call(CaughtZapdos)
+    }
+    elif(var(VAR_RESULT) == B_OUTCOME_WON){
+        call(WonZapdos)
+    }
+
+    elif(var(VAR_RESULT) == B_OUTCOME_RAN){
+        call(RanAwayZapdos)
+    }
+
+    elif(var(VAR_RESULT) == B_OUTCOME_PLAYER_TELEPORTED){
+        call(RanAwayZapdos)
+    }
+    waitmessage
+    releaseall
+    }
+
+script CaughtZapdos {
+    fadescreen(FADE_TO_BLACK)
+    removeobject(1)
+    setflag(FLAG_CAUGHT_ZAPDOS)
+    fadescreen(FADE_FROM_BLACK)
+    return
+}
+
+script RanAwayZapdos {
+    playmoncry(SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER)
+    delay(20)
+    msgbox("Zapdos wants to battle again!")
+    return
+}
+
+script WonZapdos {
+    playmoncry(SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER)
+    delay(20)
+    msgbox("Zapdos wants to battle again!")
+    return
+}

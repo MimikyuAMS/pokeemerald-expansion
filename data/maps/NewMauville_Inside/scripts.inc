@@ -261,3 +261,67 @@ NewMauville_Inside_Text_SteppedOnSwitchGeneratorStopped:
 	.string "… … … … … … … …\p"
 	.string "The generator appears to have\n"
 	.string "stopped…$"
+
+ZapdosEncounter::
+	lockall
+	playmoncry SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setwildbattle SPECIES_ZAPDOS, 30
+	special BattleSetup_StartLegendaryBattle
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq ZapdosEncounter_2
+	compare VAR_RESULT, B_OUTCOME_WON
+	goto_if_eq ZapdosEncounter_3
+	compare VAR_RESULT, B_OUTCOME_RAN
+	goto_if_eq ZapdosEncounter_4
+	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
+	goto_if_eq ZapdosEncounter_5
+ZapdosEncounter_1:
+	waitmessage
+	releaseall
+	return
+
+ZapdosEncounter_2:
+	call CaughtZapdos
+	goto ZapdosEncounter_1
+
+ZapdosEncounter_3:
+	call WonZapdos
+	goto ZapdosEncounter_1
+
+ZapdosEncounter_4:
+	call RanAwayZapdos
+	goto ZapdosEncounter_1
+
+ZapdosEncounter_5:
+	call RanAwayZapdos
+	goto ZapdosEncounter_1
+
+
+CaughtZapdos::
+	fadescreen FADE_TO_BLACK
+	removeobject 1
+	setflag FLAG_CAUGHT_ZAPDOS
+	fadescreen FADE_FROM_BLACK
+	return
+
+
+RanAwayZapdos::
+	playmoncry SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER
+	delay 20
+	msgbox RanAwayZapdos_Text_0
+	return
+
+
+WonZapdos::
+	playmoncry SPECIES_ZAPDOS, CRY_MODE_ENCOUNTER
+	delay 20
+	msgbox RanAwayZapdos_Text_0
+	return
+
+
+RanAwayZapdos_Text_0:
+	.string "Zapdos wants to battle again!$"

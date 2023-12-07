@@ -1,0 +1,69 @@
+mapscripts MewtwoRoom_MapScripts {
+MAP_SCRIPT_ON_TRANSITION: MewtwoRoom_On_Tranisition
+}
+
+script MewtwoRoom_On_Tranisition{
+    if (flag(FLAG_AIDEN_DEFEATED) == FALSE){
+        call(HideMewtwo)
+    }
+    elif (flag(FLAG_AIDEN_DEFEATED) == TRUE){
+        clearflag(FLAG_HIDE_MEWTWO)
+    }
+end
+}
+
+script HideMewtwo{
+    removeobject(1)
+    setflag(FLAG_HIDE_MEWTWO)
+    end
+}
+
+script MewtwoEncounter {
+    lockall
+    playmoncry(SPECIES_MEWTWO, CRY_MODE_ENCOUNTER)
+    delay(40)
+    waitmoncry
+    setwildbattle(SPECIES_MEWTWO, 80)
+    special(BattleSetup_StartLegendaryBattle)
+    dowildbattle
+
+    specialvar(VAR_RESULT, GetBattleOutcome)
+    if(var(VAR_RESULT) == B_OUTCOME_CAUGHT){
+        call(CaughtMewtwo)
+    }
+    elif(var(VAR_RESULT) == B_OUTCOME_WON){
+        call(WonMewtwo)
+    }
+
+    elif(var(VAR_RESULT) == B_OUTCOME_RAN){
+        call(RanAwayMewtwo)
+    }
+
+    elif(var(VAR_RESULT) == B_OUTCOME_PLAYER_TELEPORTED){
+        call(RanAwayMewtwo)
+    }
+    waitmessage
+    releaseall
+    }
+
+script CaughtMewtwo {
+    fadescreen(FADE_TO_BLACK)
+    removeobject(1)
+    setflag(FLAG_CAUGHT_MEWTWO)
+    fadescreen(FADE_FROM_BLACK)
+    return
+}
+
+script RanAwayMewtwo {
+    playmoncry(SPECIES_MEWTWO, CRY_MODE_ENCOUNTER)
+    delay(20)
+    msgbox("Mewtwo wants to battle again!")
+    return
+}
+
+script WonMewtwo {
+    playmoncry(SPECIES_MEWTWO, CRY_MODE_ENCOUNTER)
+    delay(20)
+    msgbox("Mewtwo wants to battle again!")
+    return
+}

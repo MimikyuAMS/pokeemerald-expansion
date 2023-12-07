@@ -515,9 +515,9 @@
 #define FLAG_CAUGHT_ENTEI                    0x1DE // Unused Flag
 #define FLAG_CAUGHT_RAIKOU                   0x1DF // Unused Flag
 #define FLAG_CAUGHT_SUICUNE                  0x1E0 // Unused Flag
-#define FLAG_DEFEATED_ENTEI                  0x1E1 // Unused Flag
-#define FLAG_DEFEATED_SUICUNE                0x1E2 // Unused Flag
-#define FLAG_DEFEATED_RAIKOU                 0x1E3 // Unused Flag
+#define FLAG_CAUGHT_ARTICUNO                  0x1E1 // Unused Flag
+#define FLAG_CAUGHT_MOLTRES                0x1E2 // Unused Flag
+#define FLAG_CAUGHT_ZAPDOS                0x1E3 // Unused Flag
 
 #define FLAG_SHOWN_TRINITY_TICKET            0x1E4
 // Mystery Gift Flags (Unknown)
@@ -655,10 +655,10 @@
 
 #define FLAG_LEGENDARY_BEASTS_CAUGHT_TRAP  0x264 // Unused Flag
 #define FLAG_AIDEN_DEFEATED  0x265 // Unused Flag
-#define FLAG_UNUSED_0x266  0x266 // Unused Flag
-#define FLAG_UNUSED_0x267  0x267 // Unused Flag
-#define FLAG_UNUSED_0x268  0x268 // Unused Flag
-#define FLAG_UNUSED_0x269  0x269 // Unused Flag
+#define FLAG_CAUGHT_CELEBI  0x266 // Unused Flag
+#define FLAG_CAUGHT_MEWTWO  0x267 // Unused Flag
+#define FLAG_CAUGHT_JIRACHI  0x268 // Unused Flag
+#define FLAG_HIDE_MEWTWO  0x269 // Unused Flag
 #define FLAG_UNUSED_0x26A  0x26A // Unused Flag
 #define FLAG_UNUSED_0x26B  0x26B // Unused Flag
 #define FLAG_UNUSED_0x26C  0x26C // Unused Flag

@@ -1,0 +1,53 @@
+mapscripts EmberCaverns_MapScripts{
+
+}
+
+script MoltresEncounter {
+    lockall
+    playmoncry(SPECIES_MOLTRES, CRY_MODE_ENCOUNTER)
+    delay(40)
+    waitmoncry
+    setwildbattle(SPECIES_MOLTRES, 30)
+    special(BattleSetup_StartLegendaryBattle)
+    dowildbattle
+
+    specialvar(VAR_RESULT, GetBattleOutcome)
+    if(var(VAR_RESULT) == B_OUTCOME_CAUGHT){
+        call(CaughtMoltres)
+    }
+    elif(var(VAR_RESULT) == B_OUTCOME_WON){
+        call(WonMoltres)
+    }
+
+    elif(var(VAR_RESULT) == B_OUTCOME_RAN){
+        call(RanAwayMoltres)
+    }
+
+    elif(var(VAR_RESULT) == B_OUTCOME_PLAYER_TELEPORTED){
+        call(RanAwayMoltres)
+    }
+    waitmessage
+    releaseall
+    }
+
+script CaughtMoltres {
+    fadescreen(FADE_TO_BLACK)
+    removeobject(1)
+    setflag(FLAG_CAUGHT_MOLTRES)
+    fadescreen(FADE_FROM_BLACK)
+    return
+}
+
+script RanAwayMoltres {
+    playmoncry(SPECIES_MOLTRES, CRY_MODE_ENCOUNTER)
+    delay(20)
+    msgbox("Moltres wants to battle again!")
+    return
+}
+
+script WonMoltres {
+    playmoncry(SPECIES_MOLTRES, CRY_MODE_ENCOUNTER)
+    delay(20)
+    msgbox("Moltres wants to battle again!")
+    return
+}

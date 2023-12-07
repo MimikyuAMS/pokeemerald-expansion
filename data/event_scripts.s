@@ -1116,3 +1116,7 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/BluteForest/scripts.inc"
 
 	.include "data/maps/RustburoPark/scripts.inc"
+
+	.include "data/maps/MeteorFalls_B1F_3R/scripts.inc"
+
+	.include "data/maps/MewtwoRoom/scripts.inc"

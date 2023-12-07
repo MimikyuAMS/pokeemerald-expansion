@@ -30,6 +30,13 @@
       "elevation": 0,
       "dest_map": "MAP_MIMIKYUS_ROOM",
       "dest_warp_id": "0"
+    },
+    {
+      "x": 5,
+      "y": 1,
+      "elevation": 0,
+      "dest_map": "MAP_ROCKET_HIDEOUT_FLOOR1",
+      "dest_warp_id": "0"
     }
   ],
   "coord_events": [

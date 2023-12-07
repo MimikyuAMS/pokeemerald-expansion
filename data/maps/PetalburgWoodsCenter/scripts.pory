@@ -1,0 +1,53 @@
+mapscripts PetalburgWoodsCenter_MapScripts{
+
+}
+
+script CelebiEncounter {
+    lockall
+    playmoncry(SPECIES_CELEBI, CRY_MODE_ENCOUNTER)
+    delay(40)
+    waitmoncry
+    setwildbattle(SPECIES_CELEBI, 30)
+    special(BattleSetup_StartLegendaryBattle)
+    dowildbattle
+
+    specialvar(VAR_RESULT, GetBattleOutcome)
+    if(var(VAR_RESULT) == B_OUTCOME_CAUGHT){
+        call(CaughtCelebi)
+    }
+    elif(var(VAR_RESULT) == B_OUTCOME_WON){
+        call(WonCelebi)
+    }
+
+    elif(var(VAR_RESULT) == B_OUTCOME_RAN){
+        call(RanAwayCelebi)
+    }
+
+    elif(var(VAR_RESULT) == B_OUTCOME_PLAYER_TELEPORTED){
+        call(RanAwayCelebi)
+    }
+    waitmessage
+    releaseall
+    }
+
+script CaughtCelebi {
+    fadescreen(FADE_TO_BLACK)
+    removeobject(1)
+    setflag(FLAG_CAUGHT_CELEBI)
+    fadescreen(FADE_FROM_BLACK)
+    return
+}
+
+script RanAwayCelebi {
+    playmoncry(SPECIES_CELEBI, CRY_MODE_ENCOUNTER)
+    delay(20)
+    msgbox("Celebi wants to battle again!")
+    return
+}
+
+script WonCelebi {
+    playmoncry(SPECIES_CELEBI, CRY_MODE_ENCOUNTER)
+    delay(20)
+    msgbox("Celebi wants to battle again!")
+    return
+}
