@@ -4,14 +4,14 @@ MtPepperthorn_MapScripts::
 
 RocketGrunt5::
 	trainerbattle_single ROCKET_BATTLE_5, RocketF3_Intro, RocketF3_Outro
-	msgbox PostBattleRocketF2, MSGBOX_DEFAULT
+	msgbox PostBattleRocketF2, MSGBOX_AUTOCLOSE
 	waitmessage
 	end
 
 
 RocketGrunt6::
 	trainerbattle_single ROCKET_BATTLE_6, RocketM3_Intro, RocketM3_Outro
-	msgbox PostBattleRocketM3, MSGBOX_DEFAULT
+	msgbox PostBattleRocketM3, MSGBOX_AUTOCLOSE
 	waitmessage
 	end
 

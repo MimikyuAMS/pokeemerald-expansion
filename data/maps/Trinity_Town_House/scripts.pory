@@ -5,7 +5,7 @@ mapscripts Trinity_Town_House_MapScripts {
 script Trinity_Village_Elder2{
     lockall
     faceplayer
-    message("That Aiden guy from Team Rocket \n he is responsible for the disarray \n of these islands!")
+    msgbox("That Aiden guy from Team Rocket... \n He is responsible for the disarray \n of these islands!")
     releaseall
     end
 }

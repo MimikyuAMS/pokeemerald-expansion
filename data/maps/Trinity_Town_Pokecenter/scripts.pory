@@ -1,3 +1,4 @@
+const LOCALID_NURSE = 1
 mapscripts Trinity_Town_Pokecenter_MapScripts {
     MAP_SCRIPT_ON_TRANSITION: Trinity_PokemonCenter_OnTransition
 }
@@ -7,20 +8,12 @@ script Trinity_PokemonCenter_OnTransition {
 }
  
 script NurseJoy{
-    lockall
-    faceplayer
-    msgbox("Would you like me to heal your party?", MSGBOX_YESNO)
-    if(var(VAR_RESULT) == YES){
-        incrementgamestat(GAME_STAT_USED_POKECENTER)
-        special(HealPlayerParty)
-        msgbox("Come again soon.")
-        waitmessage
-        releaseall
-        end
-    }
-    else{
-        msgbox("Have a nice day", MSGBOX_NPC)
-    }
+    setvar(VAR_0x800B, LOCALID_NURSE)
+	call(Common_EventScript_PkmnCenterNurse)
+	waitmessage
+	waitbuttonpress
+	release
+	end
 }
 
 

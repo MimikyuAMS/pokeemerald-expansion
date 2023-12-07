@@ -9,20 +9,11 @@ Trinity_PokemonCenter_OnTransition::
 
 
 NurseJoy::
-	lockall
-	faceplayer
-	msgbox NurseJoy_Text_0, MSGBOX_YESNO
-	compare VAR_RESULT, YES
-	goto_if_eq NurseJoy_1
-	msgbox NurseJoy_Text_2, MSGBOX_NPC
-	return
-
-NurseJoy_1:
-	incrementgamestat GAME_STAT_USED_POKECENTER
-	special HealPlayerParty
-	msgbox NurseJoy_Text_1
+	setvar VAR_0x800B, 1
+	call Common_EventScript_PkmnCenterNurse
 	waitmessage
-	releaseall
+	waitbuttonpress
+	release
 	end
 
 
@@ -47,15 +38,6 @@ TrinityMart::
 	.2byte ITEM_NONE
 	releaseall
 	end
-
-NurseJoy_Text_0:
-	.string "Would you like me to heal your party?$"
-
-NurseJoy_Text_1:
-	.string "Come again soon.$"
-
-NurseJoy_Text_2:
-	.string "Have a nice day$"
 
 Trinity_Clerk_Text_0:
 	.string "Hi, I sell various items.$"

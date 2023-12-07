@@ -4,14 +4,14 @@ Shockola_Factory_MapScripts::
 
 RocketGrunt3::
 	trainerbattle_single ROCKET_BATTLE_3, RocketF2_Intro, RocketF2_Outro
-	msgbox PostBattleRocketF2, MSGBOX_DEFAULT
+	msgbox PostBattleRocketF2, MSGBOX_AUTOCLOSE
 	waitmessage
 	end
 
 
 RocketGrunt4::
 	trainerbattle_single ROCKET_BATTLE_4, RocketM2_Intro, RocketM2_Outro
-	msgbox PostBattleRocketM2, MSGBOX_DEFAULT
+	msgbox PostBattleRocketM2, MSGBOX_AUTOCLOSE
 	waitmessage
 	end
 

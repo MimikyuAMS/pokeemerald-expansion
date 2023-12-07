@@ -94,7 +94,7 @@ RocketGuard2::
 
 RocketGrunt2::
 	trainerbattle_single ROCKET_BATTLE_2, RocketM1_Intro, RocketM1_Outro
-	msgbox PostBattleRocketM1, MSGBOX_DEFAULT
+	msgbox PostBattleRocketM1, MSGBOX_AUTOCLOSE
 	waitmessage
 	end
 

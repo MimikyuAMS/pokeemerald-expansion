@@ -4,7 +4,7 @@ SnowcloakCaverns_MapScripts::
 
 RocketGrunt7::
 	trainerbattle_single ROCKET_BATTLE_7, RocketM4_Intro, RocketM4_Outro
-	msgbox PostBattleRocketM4, MSGBOX_DEFAULT
+	msgbox PostBattleRocketM4, MSGBOX_AUTOCLOSE
 	end
 
 
