@@ -1438,7 +1438,7 @@ EvoShop::
 	end
 
 EvoClerk_Text_0:
-	.string "Hello, want to evolve you Pokemon?$"
+	.string "Hello, want to evolve your Pokemon?$"
 
 EvoClerk_Text_1:
 	.string "Thank you kindly!$"

@@ -1,5 +1,15 @@
 ThurnicaneIsland_MapScripts::
+	map_script MAP_SCRIPT_ON_RESUME, ThurnicaneIsland_On_Tranisition
 	.byte 0
+
+
+ThurnicaneIsland_On_Tranisition::
+	goto_if_set FLAG_CAUGHT_RAIKOU, ThurnicaneIsland_On_Tranisition_1
+	return
+
+ThurnicaneIsland_On_Tranisition_1:
+	removeobject 1
+	end
 
 
 RaikouEncounter::

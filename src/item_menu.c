@@ -288,7 +288,7 @@ static const struct MenuAction sItemMenuActions[] = {
 // ACTION_DUMMY is used to represent blank spaces
 static const u8 sContextMenuItems_ItemsPocket[] = {
     ACTION_USE,         ACTION_GIVE,
-    ACTION_TOSS,        ACTION_CANCEL
+    ACTION_DUMMY,        ACTION_CANCEL
 };
 
 static const u8 sContextMenuItems_MegaStonesPocket[] = {
@@ -303,7 +303,7 @@ static const u8 sContextMenuItems_KeyItemsPocket[] = {
 
 static const u8 sContextMenuItems_BallsPocket[] = {
     ACTION_GIVE,        ACTION_DUMMY,
-    ACTION_TOSS,        ACTION_CANCEL
+    ACTION_DUMMY,        ACTION_CANCEL
 };
 
 static const u8 sContextMenuItems_TmHmPocket[] = {
@@ -1939,7 +1939,7 @@ static void ItemMenu_Give(u8 taskId)
     {
         DisplayItemMessage(taskId, FONT_NORMAL, gText_CantWriteMail, HandleErrorMessage);
     }
-    else if (!ItemId_GetImportance(gSpecialVar_ItemId) || (ItemId_GetImportance(gSpecialVar_ItemId) && ItemId_GetHoldEffect(gSpecialVar_ItemId) == HOLD_EFFECT_MEGA_STONE))
+    else if (!ItemId_GetImportance(gSpecialVar_ItemId) || ((ItemId_GetImportance(gSpecialVar_ItemId) && ItemId_GetHoldEffect(gSpecialVar_ItemId)) == HOLD_EFFECT_MEGA_STONE || HOLD_EFFECT_Z_CRYSTAL))
     {
         if (CalculatePlayerPartyCount() == 0)
         {

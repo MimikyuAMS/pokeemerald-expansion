@@ -1,7 +1,13 @@
 mapscripts EmberCaverns_MapScripts{
-
+MAP_SCRIPT_ON_RESUME: EmberCaverns_On_Tranisition
 }
 
+script EmberCaverns_On_Tranisition{
+    if (flag(FLAG_CAUGHT_MOLTRES) == TRUE){
+    removeobject(1)
+    end
+    }
+}
 script MoltresEncounter {
     lockall
     playmoncry(SPECIES_MOLTRES, CRY_MODE_ENCOUNTER)

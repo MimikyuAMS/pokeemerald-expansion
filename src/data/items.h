@@ -4391,7 +4391,7 @@ const struct Item gItems[] =
     [ITEM_ICIUM_Z] =
     {
         .name = _("Icium Z"),
-        .price = 0,
+        .price = 1000,
         .holdEffect = HOLD_EFFECT_Z_CRYSTAL,
         .description = sIciumZDesc,
         .pocket = POCKET_ITEMS,
@@ -4404,7 +4404,7 @@ const struct Item gItems[] =
     [ITEM_FIGHTINIUM_Z] =
     {
         .name = _("Fightinium Z"),
-        .price = 0,
+        .price = 1000,
         .holdEffect = HOLD_EFFECT_Z_CRYSTAL,
         .description = sFightiniumZDesc,
         .pocket = POCKET_ITEMS,
@@ -4417,7 +4417,7 @@ const struct Item gItems[] =
     [ITEM_POISONIUM_Z] =
     {
         .name = _("Poisonium Z"),
-        .price = 0,
+        .price = 1000,
         .holdEffect = HOLD_EFFECT_Z_CRYSTAL,
         .description = sPoisoniumZDesc,
         .pocket = POCKET_ITEMS,
@@ -4677,7 +4677,7 @@ const struct Item gItems[] =
     [ITEM_KOMMONIUM_Z] =
     {
         .name = _("Kommonium Z"),
-        .price = 0,
+        .price = 2000,
         .holdEffect = HOLD_EFFECT_Z_CRYSTAL,
         .description = sKommoniumZDesc,
         .pocket = POCKET_ITEMS,
@@ -4742,7 +4742,7 @@ const struct Item gItems[] =
     [ITEM_ALORAICHIUM_Z] =
     {
         .name = _("Aloraichium Z"),
-        .price = 14000,
+        .price = 1400,
         .holdEffect = HOLD_EFFECT_Z_CRYSTAL,
         .description = sAloraichiumZDesc,
         .pocket = POCKET_ITEMS,

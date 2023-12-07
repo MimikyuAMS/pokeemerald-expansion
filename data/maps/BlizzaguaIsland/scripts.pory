@@ -1,5 +1,12 @@
 mapscripts BlizzaguaIsland_MapScripts{
+MAP_SCRIPT_ON_RESUME: BlizzaguaIsland_On_Tranisition
+}
 
+script BlizzaguaIsland_On_Tranisition{
+    if (flag(FLAG_CAUGHT_SUICUNE) == TRUE){
+    removeobject(1)
+    end
+    }
 }
 
 script SuicuneEncounter {

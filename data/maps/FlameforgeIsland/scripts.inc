@@ -1,5 +1,15 @@
 FlameforgeIsland_MapScripts::
+	map_script MAP_SCRIPT_ON_RESUME, FlameforgeIsland_On_Tranisition
 	.byte 0
+
+
+FlameforgeIsland_On_Tranisition::
+	goto_if_set FLAG_CAUGHT_ENTEI, FlameforgeIsland_On_Tranisition_1
+	return
+
+FlameforgeIsland_On_Tranisition_1:
+	removeobject 1
+	end
 
 
 EnteiEncounter::

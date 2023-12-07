@@ -8,6 +8,7 @@ NewMauville_Inside_OnResume:
 	call_if_eq VAR_TEMP_1, 1, NewMauville_Inside_EventScript_SetBarrierStateBlueButton
 	call_if_eq VAR_TEMP_2, 1, NewMauville_Inside_EventScript_SetBarrierStateGreenButton
 	call_if_set FLAG_SYS_CTRL_OBJ_DELETE, NewMauville_Inside_EventScript_TryRemoveVoltorb
+	goto_if_set FLAG_CAUGHT_ZAPDOS, NewMauville_Inside_On_Tranisition_1
 	end
 
 NewMauville_Inside_EventScript_TryRemoveVoltorb::
@@ -22,6 +23,10 @@ NewMauville_Inside_OnTransition:
 	call_if_unset FLAG_DEFEATED_VOLTORB_1_NEW_MAUVILLE, NewMauville_Inside_EventScript_ShowVoltorb1
 	call_if_unset FLAG_DEFEATED_VOLTORB_2_NEW_MAUVILLE, NewMauville_Inside_EventScript_ShowVoltorb2
 	call_if_unset FLAG_DEFEATED_VOLTORB_3_NEW_MAUVILLE, NewMauville_Inside_EventScript_ShowVoltorb3
+	end
+	
+NewMauville_Inside_On_Tranisition_1:
+	removeobject 1
 	end
 
 NewMauville_Inside_EventScript_ShowVoltorb1::

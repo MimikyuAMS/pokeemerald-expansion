@@ -1,5 +1,14 @@
 ShoalCave_LowTideIceRoom_MapScripts::
+map_script MAP_SCRIPT_ON_RESUME, ShoalCave_LowTideIceRoom_On_Transition
 	.byte 0
+
+ShoalCave_LowTideIceRoom_On_Transition::
+	goto_if_set FLAG_CAUGHT_ARTICUNO, ShoalCave_LowTideIceRoom_On_Tranisition_1
+	return
+
+ShoalCave_LowTideIceRoom_On_Tranisition_1:
+	removeobject 1
+	end
 
 ArticunoEncounter::
 	lockall

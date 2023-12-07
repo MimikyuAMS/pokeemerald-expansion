@@ -1,5 +1,12 @@
 mapscripts ThurnicaneIsland_MapScripts{
+MAP_SCRIPT_ON_RESUME: ThurnicaneIsland_On_Tranisition
+}
 
+script ThurnicaneIsland_On_Tranisition{
+    if (flag(FLAG_CAUGHT_RAIKOU) == TRUE){
+    removeobject(1)
+    end
+    }
 }
 
 script RaikouEncounter {

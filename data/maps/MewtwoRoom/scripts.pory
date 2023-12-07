@@ -1,5 +1,5 @@
 mapscripts MewtwoRoom_MapScripts {
-MAP_SCRIPT_ON_TRANSITION: MewtwoRoom_On_Tranisition
+MAP_SCRIPT_ON_RESUME: MewtwoRoom_On_Tranisition
 }
 
 script MewtwoRoom_On_Tranisition{
@@ -8,6 +8,9 @@ script MewtwoRoom_On_Tranisition{
     }
     elif (flag(FLAG_AIDEN_DEFEATED) == TRUE){
         clearflag(FLAG_HIDE_MEWTWO)
+    }
+    elif (flag(FLAG_AIDEN_DEFEATED) && flag(FLAG_CAUGHT_MEWTWO) == TRUE){
+        call(HideMewtwo)
     }
 end
 }

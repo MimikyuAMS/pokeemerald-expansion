@@ -1,11 +1,12 @@
 MewtwoRoom_MapScripts::
-	map_script MAP_SCRIPT_ON_TRANSITION, MewtwoRoom_On_Tranisition
+	map_script MAP_SCRIPT_ON_RESUME, MewtwoRoom_On_Tranisition
 	.byte 0
 
 
 MewtwoRoom_On_Tranisition::
 	goto_if_unset FLAG_AIDEN_DEFEATED, MewtwoRoom_On_Tranisition_2
 	goto_if_set FLAG_AIDEN_DEFEATED, MewtwoRoom_On_Tranisition_3
+	goto_if_set FLAG_AIDEN_DEFEATED, MewtwoRoom_On_Tranisition_5
 MewtwoRoom_On_Tranisition_1:
 	end
 
@@ -15,6 +16,14 @@ MewtwoRoom_On_Tranisition_2:
 
 MewtwoRoom_On_Tranisition_3:
 	clearflag FLAG_HIDE_MEWTWO
+	goto MewtwoRoom_On_Tranisition_1
+
+MewtwoRoom_On_Tranisition_4:
+	call HideMewtwo
+	goto MewtwoRoom_On_Tranisition_1
+
+MewtwoRoom_On_Tranisition_5:
+	goto_if_set FLAG_CAUGHT_MEWTWO, MewtwoRoom_On_Tranisition_4
 	goto MewtwoRoom_On_Tranisition_1
 
 

@@ -1388,7 +1388,7 @@ SlateportCity_Text_TakingBattleTentChallenge:
 script EvoClerk{
 	lockall
 	faceplayer
-	message("Hello, want to evolve you Pokemon?")
+	message("Hello, want to evolve your Pokemon?")
 	waitmessage
 	pokemart(EvoShop)
 	msgbox("Thank you kindly!")
