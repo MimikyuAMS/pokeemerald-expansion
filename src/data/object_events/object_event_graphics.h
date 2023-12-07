@@ -397,3 +397,5 @@ const u32 gObjectEventPic_RocketF[] = INCBIN_U32("graphics/object_events/pics/pe
 const u16 gObjectEventPal_RocketF[] = INCBIN_U16("graphics/object_events/palettes/rocket_f.gbapal");
 const u32 gObjectEventPic_RocketM[] = INCBIN_U32("graphics/object_events/pics/people/team_rocket/rocket_m.4bpp");
 const u16 gObjectEventPal_RocketM[] = INCBIN_U16("graphics/object_events/palettes/rocket_m.gbapal");
+const u32 gObjectEventPic_Jirachi[] = INCBIN_U32("graphics/object_events/pics/pokemon/jirachi.4bpp");
+const u16 gObjectEventPal_Jirachi[] = INCBIN_U16("graphics/object_events/palettes/jirachi.gbapal");

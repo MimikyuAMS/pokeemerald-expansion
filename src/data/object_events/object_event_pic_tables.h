@@ -2304,3 +2304,15 @@ const struct SpriteFrameImage gObjectEventPicTable_Celebi[] = {
     overworld_frame(gObjectEventPic_Celebi, 4, 4, 0),
     overworld_frame(gObjectEventPic_Celebi, 4, 4, 0),
 };
+
+const struct SpriteFrameImage gObjectEventPicTable_Jirachi[] = {
+    overworld_frame(gObjectEventPic_Jirachi, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Jirachi, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Jirachi, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Jirachi, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Jirachi, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Jirachi, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Jirachi, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Jirachi, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Jirachi, 4, 4, 0),
+};

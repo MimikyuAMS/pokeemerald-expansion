@@ -248,6 +248,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Celebi;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Giovanni;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RocketF;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RocketM;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Jirachi;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Bard;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Hipster;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Trader;
@@ -508,6 +509,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_GIOVANNI] =                     &gObjectEventGraphicsInfo_Giovanni,
     [OBJ_EVENT_GFX_ROCKET_F] =                     &gObjectEventGraphicsInfo_RocketF,
     [OBJ_EVENT_GFX_ROCKET_M] =                     &gObjectEventGraphicsInfo_RocketM,  
+    [OBJ_EVENT_GFX_JIRACHI] =                      &gObjectEventGraphicsInfo_Jirachi,
 };
 const struct ObjectEventGraphicsInfo *const gMauvilleOldManGraphicsInfoPointers[] = {
     [MAUVILLE_MAN_BARD]        = &gObjectEventGraphicsInfo_Bard,
