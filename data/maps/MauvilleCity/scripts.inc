@@ -582,7 +582,7 @@ MauvilleCity_Text_ScottEXPShare:
 	.string "This thing will make your\n"
 	.string "Pokemon grow faster!\p"
 	.string "... ... ... ...\p"
-	.string "I will be cheering for ya kid!"
+	.string "I will be cheering for ya kid!$"
 
 MauvilleCity_Text_WattsonNeedFavorTakeKey:
 	.string "WATTSON: Oh, {PLAYER}{KUN}!\n"
