@@ -3282,154 +3282,185 @@ static const u8 sTM50Desc[] = _(
     "lowers Sp. Atk.");
 
 static const u8 sTM51Desc[] = _( // Todo
-    "?????");
+    "Affects both\n"
+    "opponents");
 
 static const u8 sTM52Desc[] = _( // Todo
-    "?????");
+    "User rampages\n"
+    "2-3 turns\n"
+    "confused\n"
+    "afterwards");
 
 static const u8 sTM53Desc[] = _( // Todo
-    "?????");
+    "Harshly lowers\n"
+    "Special Attack");
 
 static const u8 sTM54Desc[] = _( // Todo
-    "?????");
+    "User Faints.\n"
+    "2x Power on Misty\n"
+    "Terrain.");
 
 static const u8 sTM55Desc[] = _( // Todo
-    "?????");
+    "2x Power on\n"
+    "Psychic Terrain");
 
 static const u8 sTM56Desc[] = _( // Todo
-    "?????");
+    "Only works on a"
+    "Terrain, destroys\n"
+    "it after");
 
 static const u8 sTM57Desc[] = _( // Todo
-    "?????");
+    "Fires 2-5 times\n"
+    "Lowers defense for each\n"
+    "shot");
 
 static const u8 sTM58Desc[] = _( // Todo
-    "?????");
+    "Raises Special\n"
+    "Attack first turn\n"
+    "Fires the next");
 
 static const u8 sTM59Desc[] = _( // Todo
-    "?????");
+    "Priority on Grassy\n"
+    "Terrain");
 
 static const u8 sTM60Desc[] = _( // Todo
-    "?????");
+    "Priority on Electric\n"
+    "Terrain");
 
 static const u8 sTM61Desc[] = _( // Todo
-    "?????");
+    "Attack Type and Damage\n"
+    "changes when on terrain");
 
 static const u8 sTM62Desc[] = _( // Todo
-    "?????");
+    "Lowers Foe's"
+    "special attack");
 
 static const u8 sTM63Desc[] = _( // Todo
-    "?????");
+    "2x Damage if Foe's stats\n"
+    "raise");
 
 static const u8 sTM64Desc[] = _( // Todo
-    "?????");
+    "2x Damage if stat lowers");
 
 static const u8 sTM65Desc[] = _( // Todo
-    "?????");
+    "Only works if Foe\n"
+    "has an item");
 
 static const u8 sTM66Desc[] = _( // Todo
-    "?????");
+    "Destroys Foe's Item");
 
 static const u8 sTM67Desc[] = _( // Todo
-    "?????");
+    "Raises Ally's Attack\n"
+    "and Defense");
 
 static const u8 sTM68Desc[] = _( // Todo
-    "?????");
+    "User switches out");
 
 static const u8 sTM69Desc[] = _( // Todo
-    "?????");
+    "Hits the opponent 3 times\n"
+    "Each hit more powerful");
 
 static const u8 sTM70Desc[] = _( // Todo
-    "?????");
+    "Hits foe twice");
 
 static const u8 sTM71Desc[] = _( // Todo
-    "?????");
+    "Can burn foes");
 
 static const u8 sTM72Desc[] = _( // Todo
-    "?????");
+    "Sets Grassy Terrain");
 
 static const u8 sTM73Desc[] = _( // Todo
-    "?????");
+    "Sets Electric Terrain");
 
 static const u8 sTM74Desc[] = _( // Todo
-    "?????");
+    "Sets Misty Terrain");
 
 static const u8 sTM75Desc[] = _( // Todo
-    "?????");
+    "Sets Psychic Terrain");
 
 static const u8 sTM76Desc[] = _( // Todo
-    "?????");
+    "Throws Sharp Rocks that\n"
+    "damage the foe upon\n"
+    "switch-in");
 
 static const u8 sTM77Desc[] = _( // Todo
-    "?????");
+    "Never Misses");
 
 static const u8 sTM78Desc[] = _( // Todo
-    "?????");
+    "Sets a Substitute");
 
 static const u8 sTM79Desc[] = _( // Todo
-    "?????");
+    "Can lower foes's special\n"
+    "attack");
 
 static const u8 sTM80Desc[] = _( // Todo
-    "?????");
+    "User lets out a loud cry");
 
 static const u8 sTM81Desc[] = _( // Todo
-    "?????");
+    "User can't move next turn");
 
 static const u8 sTM82Desc[] = _( // Todo
-    "?????");
+    "Removes terrain");
 
 static const u8 sTM83Desc[] = _( // Todo
-    "?????");
+    "Can paralyze or flinch");
 
 static const u8 sTM84Desc[] = _( // Todo
-    "?????");
+    "Can burn or flinch");
 
 static const u8 sTM85Desc[] = _( // Todo
-    "?????");
+    "Can freeze or flinch");
 
 static const u8 sTM86Desc[] = _( // Todo
-    "?????");
+    "User sprays high pressure\n"
+    "water");
 
 static const u8 sTM87Desc[] = _( // Todo
-    "?????");
+    "Can burn foe");
 
 static const u8 sTM88Desc[] = _( // Todo
-    "?????");
+    "Lowers user's Defense\n"
+    "and Special Defense");
 
 static const u8 sTM89Desc[] = _( // Todo
-    "?????");
+    "Lowers Defenses while\n"
+    "raising Attack, Special\n"
+    "Attack and Speed");
 
 static const u8 sTM90Desc[] = _( // Todo
-    "?????");
+    "Sharply raises Attack");
 
 static const u8 sTM91Desc[] = _( // Todo
-    "?????");
+    "Sharply raises Special"
+    "Attack");
 
 static const u8 sTM92Desc[] = _( // Todo
-    "?????");
+    "Can Flinch");
 
 static const u8 sTM93Desc[] = _( // Todo
-    "?????");
+    "Can Flinch");
 
 static const u8 sTM94Desc[] = _( // Todo
-    "?????");
+    "Can Paralyze Foe");
 
 static const u8 sTM95Desc[] = _( // Todo
-    "?????");
+    "Hits First");
 
 static const u8 sTM96Desc[] = _( // Todo
-    "?????");
+    "Hits First but only works\n"
+    "if foe attacks");
 
 static const u8 sTM97Desc[] = _( // Todo
-    "?????");
+    "2x power if foe is Poisoned");
 
 static const u8 sTM98Desc[] = _( // Todo
-    "?????");
+    "Deals Recoil");
 
 static const u8 sTM99Desc[] = _( // Todo
-    "?????");
+    "Can lower foe's Attack");
 
 static const u8 sTM100Desc[] = _( // Todo
-    "?????");
+    "Lowers Special Attack");
 
 static const u8 sHM01Desc[] = _(
     "Attacks the foe\n"
