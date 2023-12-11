@@ -399,3 +399,6 @@ const u32 gObjectEventPic_RocketM[] = INCBIN_U32("graphics/object_events/pics/pe
 const u16 gObjectEventPal_RocketM[] = INCBIN_U16("graphics/object_events/palettes/rocket_m.gbapal");
 const u32 gObjectEventPic_Jirachi[] = INCBIN_U32("graphics/object_events/pics/pokemon/jirachi.4bpp");
 const u16 gObjectEventPal_Jirachi[] = INCBIN_U16("graphics/object_events/palettes/jirachi.gbapal");
+
+const u32 gFieldEffectObjectPic_CaveDust[] = INCBIN_U32("graphics/field_effects/pics/cave_dust.4bpp");
+const u16 gFieldEffectObjectPalette_CaveDust[] = INCBIN_U16("graphics/field_effects/palettes/cave_dust.gbapal");
