@@ -49,11 +49,6 @@ LilycoveCity_DepartmentStore_4F_Pokemart_AttackTMs:
 	.2byte ITEM_TM68
 	.2byte ITEM_TM69
 	.2byte ITEM_TM70
-	.2byte ITEM_TM96
-	.2byte ITEM_TM97
-	.2byte ITEM_TM98
-	.2byte ITEM_TM99
-	.2byte ITEM_TM100
 	.2byte ITEM_NONE
 	release
 	end
@@ -84,21 +79,6 @@ LilycoveCity_DepartmentStore_4F_Pokemart_DefenseTMs:
 	.2byte ITEM_TM78
 	.2byte ITEM_TM79
 	.2byte ITEM_TM80
-	.2byte ITEM_TM81
-	.2byte ITEM_TM82
-	.2byte ITEM_TM83
-	.2byte ITEM_TM84
-	.2byte ITEM_TM85
-	.2byte ITEM_TM86
-	.2byte ITEM_TM87
-	.2byte ITEM_TM88
-	.2byte ITEM_TM89
-	.2byte ITEM_TM90
-	.2byte ITEM_TM91
-	.2byte ITEM_TM92
-	.2byte ITEM_TM93
-	.2byte ITEM_TM94
-	.2byte ITEM_TM95
 	.2byte ITEM_NONE
 	release
 	end
