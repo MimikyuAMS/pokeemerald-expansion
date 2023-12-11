@@ -1122,5 +1122,3 @@ Common_EventScript_LegendaryFlewAway::
 	.include "data/maps/MewtwoRoom/scripts.inc"
 
 	.include "data/maps/ZStoneStore/scripts.inc"
-    .include "data/scripts/dexnav.inc"
-    
