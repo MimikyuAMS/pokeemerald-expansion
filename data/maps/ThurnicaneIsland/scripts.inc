@@ -25,23 +25,23 @@ RaikouEncounter_1:
 	return
 
 RaikouEncounter_2:
-	call Caught
+	call CaughtRaikou
 	goto RaikouEncounter_1
 
 RaikouEncounter_3:
-	call Won
+	call WonRaikou
 	goto RaikouEncounter_1
 
 RaikouEncounter_4:
-	call RanAway
+	call RanAwayRaikou
 	goto RaikouEncounter_1
 
 RaikouEncounter_5:
-	call RanAway
+	call RanAwayRaikou
 	goto RaikouEncounter_1
 
 
-Caught::
+CaughtRaikou::
 	fadescreen FADE_TO_BLACK
 	setflag FLAG_CAUGHT_RAIKOU
 	removeobject 1
@@ -49,19 +49,19 @@ Caught::
 	return
 
 
-RanAway::
+RanAwayRaikou::
 	playmoncry SPECIES_RAIKOU, CRY_MODE_ENCOUNTER
 	delay 20
-	msgbox RanAway_Text_0
+	msgbox RanAwayRaikou_Text_0
 	return
 
 
-Won::
+WonRaikou::
 	playmoncry SPECIES_RAIKOU, CRY_MODE_ENCOUNTER
 	delay 20
-	msgbox RanAway_Text_0
+	msgbox RanAwayRaikou_Text_0
 	return
 
 
-RanAway_Text_0:
+RanAwayRaikou_Text_0:
 	.string "Raikou wants to battle again!$"

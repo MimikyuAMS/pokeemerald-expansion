@@ -11933,7 +11933,7 @@ static const struct TrainerMon sParty_Square[] = {
     .lvl = 75,
     .species = SPECIES_CROBAT,
     .heldItem = ITEM_AGUAV_BERRY,
-    .ability = ABILITY_INFILTRATOR
+    .ability = ABILITY_INFILTRATOR,
     .moves = {MOVE_CRUNCH, MOVE_ACROBATICS, MOVE_STEEL_WING, MOVE_TAILWIND}
     },
     {

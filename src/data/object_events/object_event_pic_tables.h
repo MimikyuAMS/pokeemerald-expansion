@@ -2316,3 +2316,15 @@ const struct SpriteFrameImage gObjectEventPicTable_Jirachi[] = {
     overworld_frame(gObjectEventPic_Jirachi, 4, 4, 0),
     overworld_frame(gObjectEventPic_Jirachi, 4, 4, 0),
 };
+
+const struct SpriteFrameImage gObjectEventPicTable_Ogerpon[] = {
+    overworld_frame(gObjectEventPic_Ogerpon, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Ogerpon, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Ogerpon, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Ogerpon, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Ogerpon, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Ogerpon, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Ogerpon, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Ogerpon, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Ogerpon, 4, 4, 0),
+};

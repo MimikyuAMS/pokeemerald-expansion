@@ -765,3 +765,70 @@ PetalburgCity_Text_ImLookingForTalentedTrainers:
 	.string "I'm roaming the land in search of\n"
 	.string "talented TRAINERS.\p"
 	.string "I'm sorry to have taken your time.$"
+
+OgerponEncounter::
+	lockall
+	playmoncry SPECIES_OGERPON, CRY_MODE_ENCOUNTER
+	delay 40
+	waitmoncry
+	setwildbattle SPECIES_OGERPON, 30
+	special BattleSetup_StartLegendaryBattle
+	dowildbattle
+	specialvar VAR_RESULT, GetBattleOutcome
+	compare VAR_RESULT, B_OUTCOME_CAUGHT
+	goto_if_eq OgerponEncounter_2
+	compare VAR_RESULT, B_OUTCOME_WON
+	goto_if_eq OgerponEncounter_3
+	compare VAR_RESULT, B_OUTCOME_RAN
+	goto_if_eq OgerponEncounter_4
+	compare VAR_RESULT, B_OUTCOME_PLAYER_TELEPORTED
+	goto_if_eq OgerponEncounter_5
+OgerponEncounter_1:
+	waitmessage
+	releaseall
+	return
+
+OgerponEncounter_2:
+	call CaughtOgerpon
+	goto OgerponEncounter_1
+
+OgerponEncounter_3:
+	call WonOgerpon
+	goto OgerponEncounter_1
+
+OgerponEncounter_4:
+	call RanAwayOgerpon
+	goto OgerponEncounter_1
+
+OgerponEncounter_5:
+	call RanAwayOgerpon
+	goto OgerponEncounter_1
+
+
+CaughtOgerpon::
+	fadescreen FADE_TO_BLACK
+	giveitem ITEM_CORNERSTONE_MASK
+	giveitem ITEM_HEARTHFLAME_MASK
+	giveitem ITEM_WELLSPRING_MASK
+	fadescreen FADE_FROM_BLACK
+	setflag FLAG_CAUGHT_OGERPON
+	removeobject 10
+	return
+
+
+RanAwayOgerpon::
+	playmoncry SPECIES_OGERPON, CRY_MODE_ENCOUNTER
+	delay 20
+	msgbox RanAwayOgerpon_Text_0
+	return
+
+
+WonOgerpon::
+	playmoncry SPECIES_OGERPON, CRY_MODE_ENCOUNTER
+	delay 20
+	msgbox RanAwayOgerpon_Text_0
+	return
+
+
+RanAwayOgerpon_Text_0:
+	.string "Ogerpon wants to battle again!$"
