@@ -250,6 +250,7 @@ extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RocketF;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_RocketM;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Jirachi;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Ogerpon;
+extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Diancie;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Bard;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Hipster;
 extern const struct ObjectEventGraphicsInfo gObjectEventGraphicsInfo_Trader;
@@ -337,7 +338,7 @@ const struct ObjectEventGraphicsInfo *const gObjectEventGraphicsInfoPointers[NUM
     [OBJ_EVENT_GFX_NOLAND] =                   &gObjectEventGraphicsInfo_Noland,
     [OBJ_EVENT_GFX_LUCY] =                     &gObjectEventGraphicsInfo_Lucy,
     [OBJ_EVENT_GFX_OGERPON] =                  &gObjectEventGraphicsInfo_Ogerpon,
-    [OBJ_EVENT_GFX_UNUSED_MAGNEMITE_DOLL] =    &gObjectEventGraphicsInfo_UnusedMagnemiteDoll,
+    [OBJ_EVENT_GFX_DIANCIE] =                  &gObjectEventGraphicsInfo_Diancie,
     [OBJ_EVENT_GFX_UNUSED_SQUIRTLE_DOLL] =     &gObjectEventGraphicsInfo_UnusedSquirtleDoll,
     [OBJ_EVENT_GFX_UNUSED_WOOPER_DOLL] =       &gObjectEventGraphicsInfo_UnusedWooperDoll,
     [OBJ_EVENT_GFX_UNUSED_PIKACHU_DOLL] =      &gObjectEventGraphicsInfo_UnusedPikachuDoll,

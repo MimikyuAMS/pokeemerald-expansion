@@ -430,6 +430,7 @@
 #define MAP_SNOWCLOAK_CAVERNS                        (110 | (24 << 8))
 #define MAP_SNOWCLOAK_CAVERNS_B1                     (111 | (24 << 8))
 #define MAP_ROCKET_HIDEOUT_FLOOR1                    (112 | (24 << 8))
+#define MAP_DIANCIE_ROOM                             (113 | (24 << 8))
 
 // gMapGroup_IndoorDynamic
 #define MAP_SECRET_BASE_RED_CAVE1    (0 | (25 << 8))

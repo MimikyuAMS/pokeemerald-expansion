@@ -459,7 +459,8 @@
     "MtPepperthorn",
     "SnowcloakCaverns",
     "SnowcloakCavernsB1",
-    "RocketHideoutFloor1"
+    "RocketHideoutFloor1",
+    "DiancieRoom"
   ],
   "gMapGroup_IndoorDynamic": [
     "SecretBase_RedCave1",

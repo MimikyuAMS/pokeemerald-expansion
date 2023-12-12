@@ -661,7 +661,7 @@
 #define FLAG_HIDE_MEWTWO  0x269 // Unused Flag
 #define FLAG_EXP_TOGGLE  0x26A // Unused Flag
 #define FLAG_CAUGHT_OGERPON  0x26B // Unused Flag
-#define FLAG_UNUSED_0x26C  0x26C // Unused Flag
+#define FLAG_CAUGHT_DIANCIE  0x26C // Unused Flag
 #define FLAG_UNUSED_0x26D  0x26D // Unused Flag
 #define FLAG_UNUSED_0x26E  0x26E // Unused Flag
 #define FLAG_UNUSED_0x26F  0x26F // Unused Flag

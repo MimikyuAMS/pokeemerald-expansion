@@ -372,3 +372,5 @@ const u32 gObjectEventPic_Jirachi[] = INCBIN_U32("graphics/object_events/pics/po
 const u16 gObjectEventPal_Jirachi[] = INCBIN_U16("graphics/object_events/palettes/jirachi.gbapal");
 const u32 gObjectEventPic_Ogerpon[] = INCBIN_U32("graphics/object_events/pics/pokemon/ogerpon.4bpp");
 const u16 gObjectEventPal_Ogerpon[] = INCBIN_U16("graphics/object_events/palettes/ogerpon.gbapal");
+const u32 gObjectEventPic_Diancie[] = INCBIN_U32("graphics/object_events/pics/pokemon/diancie.4bpp");
+const u16 gObjectEventPal_Diancie[] = INCBIN_U16("graphics/object_events/palettes/diancie.gbapal");

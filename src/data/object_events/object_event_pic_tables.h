@@ -2328,3 +2328,15 @@ const struct SpriteFrameImage gObjectEventPicTable_Ogerpon[] = {
     overworld_frame(gObjectEventPic_Ogerpon, 4, 4, 0),
     overworld_frame(gObjectEventPic_Ogerpon, 4, 4, 0),
 };
+
+const struct SpriteFrameImage gObjectEventPicTable_Diancie[] = {
+    overworld_frame(gObjectEventPic_Diancie, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Diancie, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Diancie, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Diancie, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Diancie, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Diancie, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Diancie, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Diancie, 4, 4, 0),
+    overworld_frame(gObjectEventPic_Diancie, 4, 4, 0),
+};

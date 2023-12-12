@@ -4710,6 +4710,16 @@
       "secondary_tileset": "gTileset_Facility",
       "border_filepath": "data/layouts/ZStoneStore/border.bin",
       "blockdata_filepath": "data/layouts/ZStoneStore/map.bin"
+    },
+    {
+      "id": "LAYOUT_DIANCIE_ROOM",
+      "name": "DiancieRoom_Layout",
+      "width": 7,
+      "height": 10,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_RusturfTunnel",
+      "border_filepath": "data/layouts/DiancieRoom/border.bin",
+      "blockdata_filepath": "data/layouts/DiancieRoom/map.bin"
     }
   ]
 }
