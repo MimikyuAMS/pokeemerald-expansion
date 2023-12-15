@@ -1,3 +1,21 @@
+    MOVE_LASH_OUT,
+    MOVE_MISTY_EXPLOSION,
+    MOVE_EXPANDING_FORCE,
+    MOVE_STEEL_ROLLER,
+    MOVE_SCALE_SHOT,
+    MOVE_METEOR_BEAM,
+    MOVE_GRASSY_GLIDE,
+    MOVE_RISING_VOLTAGE,
+    MOVE_SKITTER_SMACK,
+    MOVE_TERRAIN_PULSE,
+    MOVE_BURNING_JEALOUSY,
+    MOVE_POLTERGEIST,
+    MOVE_COACHING,
+    MOVE_CORROSIVE_GAS,
+    MOVE_FLIP_TURN,
+    MOVE_TRIPLE_AXEL,
+    MOVE_DUAL_WINGBEAT,
+    MOVE_SCORCHING_SANDS,
 static const u16 sBulbasaurTeachableLearnset[] = {
     MOVE_ATTRACT,
     MOVE_BULLET_SEED,
@@ -33,6 +51,9 @@ static const u16 sBulbasaurTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_LASH_OUT,
+    MOVE_GRASSY_GLIDE,
+    MOVE_TERRAIN_PULSE,
     MOVE_UNAVAILABLE,
 };
 
@@ -71,6 +92,9 @@ static const u16 sIvysaurTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_LASH_OUT,
+    MOVE_GRASSY_GLIDE,
+    MOVE_CORROSIVE_GAS,
     MOVE_UNAVAILABLE,
 };
 
@@ -112,6 +136,9 @@ static const u16 sVenusaurTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWORDS_DANCE,
+    MOVE_LASH_OUT,
+    MOVE_GRASSY_GLIDE,
+    MOVE_CORROSIVE_GAS,
     MOVE_UNAVAILABLE,
 };
 
@@ -162,6 +189,11 @@ static const u16 sCharmanderTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_PUNCH,
+    MOVE_LASH_OUT,
+    MOVE_SCALE_SHOT,
+    MOVE_TERRAIN_PULSE,
+    MOVE_BURNING_JEALOUSY,
+    MOVE_SCORCHING_SANDS,
     MOVE_UNAVAILABLE,
 };
 
@@ -212,6 +244,11 @@ static const u16 sCharmeleonTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_PUNCH,
+    MOVE_LASH_OUT,
+    MOVE_SCALE_SHOT,
+    MOVE_TERRAIN_PULSE,
+    MOVE_BURNING_JEALOUSY,
+    MOVE_SCORCHING_SANDS,
     MOVE_UNAVAILABLE,
 };
 
@@ -269,6 +306,12 @@ static const u16 sCharizardTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_PUNCH,
+    MOVE_LASH_OUT,
+    MOVE_SCALE_SHOT,
+    MOVE_TERRAIN_PULSE,
+    MOVE_BURNING_JEALOUSY,
+    MOVE_DUAL_WINGBEAT,
+    MOVE_SCORCHING_SANDS,
     MOVE_UNAVAILABLE,
 };
 
@@ -317,6 +360,11 @@ static const u16 sSquirtleTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_LASH_OUT,
+    MOVE_STEEL_ROLLER,
+    MOVE_SCALE_SHOT,
+    MOVE_TERRAIN_PULSE,
+    MOVE_FLIP_TURN,
     MOVE_UNAVAILABLE,
 };
 
@@ -365,6 +413,11 @@ static const u16 sWartortleTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_LASH_OUT,
+    MOVE_STEEL_ROLLER,
+    MOVE_SCALE_SHOT,
+    MOVE_TERRAIN_PULSE,
+    MOVE_FLIP_TURN,
     MOVE_UNAVAILABLE,
 };
 
@@ -417,11 +470,17 @@ static const u16 sBlastoiseTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_LASH_OUT,
+    MOVE_STEEL_ROLLER,
+    MOVE_SCALE_SHOT,
+    MOVE_TERRAIN_PULSE,
+    MOVE_FLIP_TURN,
     MOVE_UNAVAILABLE,
 };
 
 static const u16 sCaterpieTeachableLearnset[] = {
     MOVE_SNORE,
+    MOVE_SKITTER_SMACK
     MOVE_UNAVAILABLE,
 };
 
@@ -463,6 +522,10 @@ static const u16 sButterfreeTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_EXPANDING_FORCE,
+    MOVE_SKITTER_SMACK,
+    MOVE_TERRAIN_PULSE,
+    MOVE_DUAL_WINGBEAT,
     MOVE_UNAVAILABLE,
 };
 
@@ -507,6 +570,11 @@ static const u16 sBeedrillTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
+    MOVE_LASH_OUT,
+    MOVE_SKITTER_SMACK,
+    MOVE_TERRAIN_PULSE,
+    MOVE_BURNING_JEALOUSY,
+    MOVE_DUAL_WINGBEAT,
     MOVE_UNAVAILABLE,
 };
 
@@ -537,6 +605,8 @@ static const u16 sPidgeyTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_TERRAIN_PULSE,
+    MOVE_DUAL_WINGBEAT,
     MOVE_UNAVAILABLE,
 };
 
@@ -567,6 +637,8 @@ static const u16 sPidgeottoTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_TERRAIN_PULSE,
+    MOVE_DUAL_WINGBEAT,
     MOVE_UNAVAILABLE,
 };
 
@@ -598,6 +670,8 @@ static const u16 sPidgeotTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_TERRAIN_PULSE,
+    MOVE_DUAL_WINGBEAT,
     MOVE_UNAVAILABLE,
 };
 
@@ -640,6 +714,8 @@ static const u16 sRattataTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_THUNDER_WAVE,
+    MOVE_SKITTER_SMACK,
+    MOVE_TERRAIN_PULSE,
     MOVE_UNAVAILABLE,
 };
 
@@ -689,6 +765,8 @@ static const u16 sRaticateTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
     MOVE_THUNDER_WAVE,
+    MOVE_SKITTER_SMACK,
+    MOVE_TERRAIN_PULSE,
     MOVE_UNAVAILABLE,
 };
 
@@ -718,6 +796,9 @@ static const u16 sSpearowTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_LASH_OUT,
+    MOVE_TERRAIN_PULSE,
+    MOVE_DUAL_WINGBEAT,
     MOVE_UNAVAILABLE,
 };
 
@@ -748,6 +829,9 @@ static const u16 sFearowTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_SWIFT,
+    MOVE_LASH_OUT,
+    MOVE_TERRAIN_PULSE,
+    MOVE_DUAL_WINGBEAT,
     MOVE_UNAVAILABLE,
 };
 
@@ -783,6 +867,10 @@ static const u16 sEkansTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_LASH_OUT,
+    MOVE_SCALE_SHOT,
+    MOVE_TERRAIN_PULSE,
+    MOVE_CORROSIVE_GAS,
     MOVE_UNAVAILABLE,
 };
 
@@ -819,6 +907,13 @@ static const u16 sArbokTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_LASH_OUT,
+    MOVE_SCALE_SHOT,
+    MOVE_TERRAIN_PULSE,
+    MOVE_BURNING_JEALOUSY,
+    MOVE_POLTERGEIST,
+    MOVE_COACHING,
+    MOVE_CORROSIVE_GAS,
     MOVE_UNAVAILABLE,
 };
 
@@ -867,6 +962,9 @@ static const u16 sPikachuTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_RISING_VOLTAGE,
+    MOVE_SKITTER_SMACK,
+    MOVE_TERRAIN_PULSE,
     MOVE_UNAVAILABLE,
 };
 
@@ -915,6 +1013,9 @@ static const u16 sRaichuTeachableLearnset[] = {
     MOVE_SWIFT,
     MOVE_THUNDER_PUNCH,
     MOVE_THUNDER_WAVE,
+    MOVE_RISING_VOLTAGE,
+    MOVE_SKITTER_SMACK,
+    MOVE_TERRAIN_PULSE,
     MOVE_UNAVAILABLE,
 };
 
@@ -961,6 +1062,10 @@ static const u16 sSandshrewTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
+    MOVE_STEEL_ROLLER,
+    MOVE_SCALE_SHOT,
+    MOVE_TERRAIN_PULSE,
+    MOVE_SCORCHING_SANDS,
     MOVE_UNAVAILABLE,
 };
 
@@ -1008,6 +1113,10 @@ static const u16 sSandslashTeachableLearnset[] = {
     MOVE_SWAGGER,
     MOVE_SWIFT,
     MOVE_SWORDS_DANCE,
+    MOVE_STEEL_ROLLER,
+    MOVE_SCALE_SHOT,
+    MOVE_TERRAIN_PULSE,
+    MOVE_SCORCHING_SANDS,
     MOVE_UNAVAILABLE,
 };
 
@@ -1050,6 +1159,10 @@ static const u16 sNidoranFTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_LASH_OUT,
+    MOVE_SKITTER_SMACK,
+    MOVE_TERRAIN_PULSE,
+    MOVE_CORROSIVE_GAS,
     MOVE_UNAVAILABLE,
 };
 
@@ -1092,6 +1205,10 @@ static const u16 sNidorinaTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_LASH_OUT,
+    MOVE_SKITTER_SMACK,
+    MOVE_TERRAIN_PULSE,
+    MOVE_CORROSIVE_GAS,
     MOVE_UNAVAILABLE,
 };
 
@@ -1157,6 +1274,10 @@ static const u16 sNidoqueenTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_THUNDER_PUNCH,
+    MOVE_LASH_OUT,
+    MOVE_SKITTER_SMACK,
+    MOVE_TERRAIN_PULSE,
+    MOVE_CORROSIVE_GAS,
     MOVE_UNAVAILABLE,
 };
 
@@ -1198,6 +1319,10 @@ static const u16 sNidoranMTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_LASH_OUT,
+    MOVE_SKITTER_SMACK,
+    MOVE_TERRAIN_PULSE,
+    MOVE_CORROSIVE_GAS,
     MOVE_UNAVAILABLE,
 };
 
@@ -1239,6 +1364,10 @@ static const u16 sNidorinoTeachableLearnset[] = {
     MOVE_SNORE,
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
+    MOVE_LASH_OUT,
+    MOVE_SKITTER_SMACK,
+    MOVE_TERRAIN_PULSE,
+    MOVE_CORROSIVE_GAS,
     MOVE_UNAVAILABLE,
 };
 
@@ -1303,6 +1432,10 @@ static const u16 sNidokingTeachableLearnset[] = {
     MOVE_SUBSTITUTE,
     MOVE_SWAGGER,
     MOVE_THUNDER_PUNCH,
+    MOVE_LASH_OUT,
+    MOVE_SKITTER_SMACK,
+    MOVE_TERRAIN_PULSE,
+    MOVE_CORROSIVE_GAS,
     MOVE_UNAVAILABLE,
 };
 

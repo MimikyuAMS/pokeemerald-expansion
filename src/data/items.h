@@ -7783,42 +7783,6 @@ const struct Item gItems[] =
     {
         .name = _("TM51"),
         .price = 3000,
-        .description = sTM51Desc,
-        .importance = I_REUSABLE_TMS,
-        .pocket = POCKET_TM_HM,
-        .type = ITEM_USE_PARTY_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_DAZZLING_GLEAM, // Todo
-    },
-
-    [ITEM_TM52] =
-    {
-        .name = _("TM52"),
-        .price = 3000,
-        .description = sTM52Desc,
-        .importance = I_REUSABLE_TMS,
-        .pocket = POCKET_TM_HM,
-        .type = ITEM_USE_PARTY_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_OUTRAGE, // Todo
-    },
-
-    [ITEM_TM53] =
-    {
-        .name = _("TM53"),
-        .price = 3000,
-        .description = sTM53Desc,
-        .importance = I_REUSABLE_TMS,
-        .pocket = POCKET_TM_HM,
-        .type = ITEM_USE_PARTY_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_DRACO_METEOR, // Todo
-    },
-
-    [ITEM_TM54] =
-    {
-        .name = _("TM54"),
-        .price = 3000,
         .description = sTM54Desc,
         .importance = I_REUSABLE_TMS,
         .pocket = POCKET_TM_HM,
@@ -7827,9 +7791,9 @@ const struct Item gItems[] =
         .secondaryId = MOVE_MISTY_EXPLOSION, // Todo
     },
 
-    [ITEM_TM55] =
+    [ITEM_TM52] =
     {
-        .name = _("TM55"),
+        .name = _("TM52"),
         .price = 3000,
         .description = sTM55Desc,
         .importance = I_REUSABLE_TMS,
@@ -7839,9 +7803,9 @@ const struct Item gItems[] =
         .secondaryId = MOVE_EXPANDING_FORCE, // Todo
     },
 
-    [ITEM_TM56] =
+    [ITEM_TM53] =
     {
-        .name = _("TM56"),
+        .name = _("TM53"),
         .price = 3000,
         .description = sTM56Desc,
         .importance = I_REUSABLE_TMS,
@@ -7851,9 +7815,9 @@ const struct Item gItems[] =
         .secondaryId = MOVE_STEEL_ROLLER, // Todo
     },
 
-    [ITEM_TM57] =
+    [ITEM_TM54] =
     {
-        .name = _("TM57"),
+        .name = _("TM54"),
         .price = 3000,
         .description = sTM57Desc,
         .importance = I_REUSABLE_TMS,
@@ -7863,9 +7827,9 @@ const struct Item gItems[] =
         .secondaryId = MOVE_SCALE_SHOT, // Todo
     },
 
-    [ITEM_TM58] =
+    [ITEM_TM55] =
     {
-        .name = _("TM58"),
+        .name = _("TM55"),
         .price = 3000,
         .description = sTM58Desc,
         .importance = I_REUSABLE_TMS,
@@ -7875,9 +7839,9 @@ const struct Item gItems[] =
         .secondaryId = MOVE_METEOR_BEAM, // Todo
     },
 
-    [ITEM_TM59] =
+    [ITEM_TM56] =
     {
-        .name = _("TM59"),
+        .name = _("TM56"),
         .price = 3000,
         .description = sTM59Desc,
         .importance = I_REUSABLE_TMS,
@@ -7887,9 +7851,9 @@ const struct Item gItems[] =
         .secondaryId = MOVE_GRASSY_GLIDE, // Todo
     },
 
-    [ITEM_TM60] =
+    [ITEM_TM57] =
     {
-        .name = _("TM60"),
+        .name = _("TM57"),
         .price = 3000,
         .description = sTM60Desc,
         .importance = I_REUSABLE_TMS,
@@ -7899,9 +7863,9 @@ const struct Item gItems[] =
         .secondaryId = MOVE_RISING_VOLTAGE, // Todo
     },
 
-    [ITEM_TM61] =
+    [ITEM_TM58] =
     {
-        .name = _("TM61"),
+        .name = _("TM58"),
         .price = 3000,
         .description = sTM61Desc,
         .importance = I_REUSABLE_TMS,
@@ -7911,9 +7875,9 @@ const struct Item gItems[] =
         .secondaryId = MOVE_TERRAIN_PULSE, // Todo
     },
 
-    [ITEM_TM62] =
+    [ITEM_TM59] =
     {
-        .name = _("TM62"),
+        .name = _("TM59"),
         .price = 3000,
         .description = sTM62Desc,
         .importance = I_REUSABLE_TMS,
@@ -7923,9 +7887,9 @@ const struct Item gItems[] =
         .secondaryId = MOVE_SKITTER_SMACK, // Todo
     },
 
-    [ITEM_TM63] =
+    [ITEM_TM60] =
     {
-        .name = _("TM63"),
+        .name = _("TM60"),
         .price = 3000,
         .description = sTM63Desc,
         .importance = I_REUSABLE_TMS,
@@ -7935,9 +7899,9 @@ const struct Item gItems[] =
         .secondaryId = MOVE_BURNING_JEALOUSY, // Todo
     },
 
-    [ITEM_TM64] =
+    [ITEM_TM61] =
     {
-        .name = _("TM64"),
+        .name = _("TM61"),
         .price = 3000,
         .description = sTM64Desc,
         .importance = I_REUSABLE_TMS,
@@ -7947,9 +7911,9 @@ const struct Item gItems[] =
         .secondaryId = MOVE_LASH_OUT, // Todo
     },
 
-    [ITEM_TM65] =
+    [ITEM_TM62] =
     {
-        .name = _("TM65"),
+        .name = _("TM62"),
         .price = 3000,
         .description = sTM65Desc,
         .importance = I_REUSABLE_TMS,
@@ -7959,9 +7923,9 @@ const struct Item gItems[] =
         .secondaryId = MOVE_POLTERGEIST, // Todo
     },
 
-    [ITEM_TM66] =
+    [ITEM_TM63] =
     {
-        .name = _("TM66"),
+        .name = _("TM63"),
         .price = 3000,
         .description = sTM66Desc,
         .importance = I_REUSABLE_TMS,
@@ -7971,9 +7935,9 @@ const struct Item gItems[] =
         .secondaryId = MOVE_CORROSIVE_GAS, // Todo
     },
 
-    [ITEM_TM67] =
+    [ITEM_TM64] =
     {
-        .name = _("TM67"),
+        .name = _("TM64"),
         .price = 3000,
         .description = sTM67Desc,
         .importance = I_REUSABLE_TMS,
@@ -7983,9 +7947,9 @@ const struct Item gItems[] =
         .secondaryId = MOVE_COACHING, // Todo
     },
 
-    [ITEM_TM68] =
+    [ITEM_TM65] =
     {
-        .name = _("TM68"),
+        .name = _("TM65"),
         .price = 3000,
         .description = sTM68Desc,
         .importance = I_REUSABLE_TMS,
@@ -7995,9 +7959,9 @@ const struct Item gItems[] =
         .secondaryId = MOVE_FLIP_TURN, // Todo
     },
 
-    [ITEM_TM69] =
+    [ITEM_TM66] =
     {
-        .name = _("TM69"),
+        .name = _("TM66"),
         .price = 3000,
         .description = sTM69Desc,
         .importance = I_REUSABLE_TMS,
@@ -8007,9 +7971,9 @@ const struct Item gItems[] =
         .secondaryId = MOVE_TRIPLE_AXEL, // Todo
     },
 
-    [ITEM_TM70] =
+    [ITEM_TM67] =
     {
-        .name = _("TM70"),
+        .name = _("TM67"),
         .price = 3000,
         .description = sTM70Desc,
         .importance = I_REUSABLE_TMS,
@@ -8019,9 +7983,9 @@ const struct Item gItems[] =
         .secondaryId = MOVE_DUAL_WINGBEAT, // Todo
     },
 
-    [ITEM_TM71] =
+    [ITEM_TM68] =
     {
-        .name = _("TM71"),
+        .name = _("TM68"),
         .price = 3000,
         .description = sTM71Desc,
         .importance = I_REUSABLE_TMS,
@@ -8029,114 +7993,6 @@ const struct Item gItems[] =
         .type = ITEM_USE_PARTY_MENU,
         .fieldUseFunc = ItemUseOutOfBattle_TMHM,
         .secondaryId = MOVE_SCORCHING_SANDS, // Todo
-    },
-
-    [ITEM_TM72] =
-    {
-        .name = _("TM72"),
-        .price = 3000,
-        .description = sTM72Desc,
-        .importance = I_REUSABLE_TMS,
-        .pocket = POCKET_TM_HM,
-        .type = ITEM_USE_PARTY_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_GRASSY_TERRAIN, // Todo
-    },
-
-    [ITEM_TM73] =
-    {
-        .name = _("TM73"),
-        .price = 3000,
-        .description = sTM73Desc,
-        .importance = I_REUSABLE_TMS,
-        .pocket = POCKET_TM_HM,
-        .type = ITEM_USE_PARTY_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_ELECTRIC_TERRAIN, // Todo
-    },
-
-    [ITEM_TM74] =
-    {
-        .name = _("TM74"),
-        .price = 3000,
-        .description = sTM74Desc,
-        .importance = I_REUSABLE_TMS,
-        .pocket = POCKET_TM_HM,
-        .type = ITEM_USE_PARTY_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_MISTY_TERRAIN, // Todo
-    },
-
-    [ITEM_TM75] =
-    {
-        .name = _("TM75"),
-        .price = 3000,
-        .description = sTM75Desc,
-        .importance = I_REUSABLE_TMS,
-        .pocket = POCKET_TM_HM,
-        .type = ITEM_USE_PARTY_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_PSYCHIC_TERRAIN, // Todo
-    },
-
-    [ITEM_TM76] =
-    {
-        .name = _("TM76"),
-        .price = 3000,
-        .description = sTM76Desc,
-        .importance = I_REUSABLE_TMS,
-        .pocket = POCKET_TM_HM,
-        .type = ITEM_USE_PARTY_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_STEALTH_ROCK, // Todo
-    },
-
-    [ITEM_TM77] =
-    {
-        .name = _("TM77"),
-        .price = 3000,
-        .description = sTM77Desc,
-        .importance = I_REUSABLE_TMS,
-        .pocket = POCKET_TM_HM,
-        .type = ITEM_USE_PARTY_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_AURA_SPHERE, // Todo
-    },
-
-    [ITEM_TM78] =
-    {
-        .name = _("TM78"),
-        .price = 3000,
-        .description = sTM78Desc,
-        .importance = I_REUSABLE_TMS,
-        .pocket = POCKET_TM_HM,
-        .type = ITEM_USE_PARTY_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_SUBSTITUTE, // Todo
-    },
-
-    [ITEM_TM79] =
-    {
-        .name = _("TM79"),
-        .price = 3000,
-        .description = sTM79Desc,
-        .importance = I_REUSABLE_TMS,
-        .pocket = POCKET_TM_HM,
-        .type = ITEM_USE_PARTY_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_MOONBLAST, // Todo
-    },
-
-    [ITEM_TM80] =
-    {
-        .name = _("TM80"),
-        .price = 3000,
-        .description = sTM80Desc,
-        .importance = I_REUSABLE_TMS,
-        .pocket = POCKET_TM_HM,
-        .type = ITEM_USE_PARTY_MENU,
-        .fieldUseFunc = ItemUseOutOfBattle_TMHM,
-        .secondaryId = MOVE_HYPER_VOICE, // Todo
     },
     
     [ITEM_HM_CUT] =

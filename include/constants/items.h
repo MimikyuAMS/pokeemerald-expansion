@@ -762,18 +762,6 @@
 #define ITEM_TM66 647
 #define ITEM_TM67 648
 #define ITEM_TM68 649
-#define ITEM_TM69 650
-#define ITEM_TM70 651
-#define ITEM_TM71 652
-#define ITEM_TM72 653
-#define ITEM_TM73 654
-#define ITEM_TM74 655
-#define ITEM_TM75 656
-#define ITEM_TM76 657
-#define ITEM_TM77 658
-#define ITEM_TM78 659
-#define ITEM_TM79 660
-#define ITEM_TM80 661
 
 #define ITEM_HM01 662
 #define ITEM_HM02 663

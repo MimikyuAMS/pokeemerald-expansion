@@ -3281,20 +3281,6 @@ static const u8 sTM50Desc[] = _(
     "attack, but sharply\n"
     "lowers Sp. Atk.");
 
-static const u8 sTM51Desc[] = _( // Todo
-    "Affects both\n"
-    "opponents");
-
-static const u8 sTM52Desc[] = _( // Todo
-    "User rampages\n"
-    "2-3 turns\n"
-    "confused\n"
-    "afterwards");
-
-static const u8 sTM53Desc[] = _( // Todo
-    "Harshly lowers\n"
-    "Special Attack");
-
 static const u8 sTM54Desc[] = _( // Todo
     "User Faints.\n"
     "2x Power on Misty\n"
@@ -3365,36 +3351,6 @@ static const u8 sTM70Desc[] = _( // Todo
 
 static const u8 sTM71Desc[] = _( // Todo
     "Can burn foes");
-
-static const u8 sTM72Desc[] = _( // Todo
-    "Sets Grassy Terrain");
-
-static const u8 sTM73Desc[] = _( // Todo
-    "Sets Electric Terrain");
-
-static const u8 sTM74Desc[] = _( // Todo
-    "Sets Misty Terrain");
-
-static const u8 sTM75Desc[] = _( // Todo
-    "Sets Psychic Terrain");
-
-static const u8 sTM76Desc[] = _( // Todo
-    "Throws Sharp Rocks that\n"
-    "damage the foe upon\n"
-    "switch-in");
-
-static const u8 sTM77Desc[] = _( // Todo
-    "Never Misses");
-
-static const u8 sTM78Desc[] = _( // Todo
-    "Sets a Substitute");
-
-static const u8 sTM79Desc[] = _( // Todo
-    "Can lower foes's special\n"
-    "attack");
-
-static const u8 sTM80Desc[] = _( // Todo
-    "User lets out a loud cry");
 
 static const u8 sHM01Desc[] = _(
     "Attacks the foe\n"
