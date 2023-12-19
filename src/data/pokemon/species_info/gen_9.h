@@ -5402,8 +5402,8 @@ const struct SpeciesInfo gSpeciesInfoGen9[] =
         .frontAnimFrames = sAnims_Ogerpon,                                              \
         BACK_PIC(Ogerpon##Form, 64, 64),                                                \
         .backPicYOffset = 16,                                                           \
-        .palette = gMonPalette_Ogerpon##Form,                                           \
         ICON(OgerponTealMask, 1),                                                       \
+        PALETTES(Ogerpon##Form),                                                        \
         LEARNSETS(Ogerpon),                                                             \
         .formSpeciesIdTable = sOgerponFormSpeciesIdTable,                               \
         .formChangeTable = sOgerponFormChangeTable,                                     \
