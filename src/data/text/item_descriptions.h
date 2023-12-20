@@ -3032,9 +3032,9 @@ static const u8 sEnigmaBerryEReaderDesc[] = _(
 
 // TMs/HMs
 static const u8 sTM01Desc[] = _(
-    "Powerful, but makes\n"
-    "the user flinch if\n"
-    "hit by the foe.");
+    "User channels\n"
+    "it's aura\n"
+    "to hit the foe.");
 
 static const u8 sTM02Desc[] = _(
     "Hooks and slashes\n"
@@ -3052,9 +3052,9 @@ static const u8 sTM04Desc[] = _(
     "the mind.");
 
 static const u8 sTM05Desc[] = _(
-    "A savage roar that\n"
-    "makes the foe flee \n"
-    "to end the battle.");
+    "The user\n"
+    "screams, dealing \n"
+    "damage to the foe");
 
 static const u8 sTM06Desc[] = _(
     "Poisons the foe\n"
