@@ -1432,6 +1432,30 @@ EvoShop::
 	.2byte ITEM_DAWN_STONE
 	.2byte ITEM_ICE_STONE
 	.2byte ITEM_LINKING_CORD
+	.2byte ITEM_NONE
+	releaseall
+	end
+
+CandyClerk::
+	lockall
+	faceplayer
+	message CandyClerk_Text_0
+	waitmessage
+	pokemart CandyShop
+	msgbox EvoClerk_Text_1
+	releaseall
+	end
+
+
+ 
+
+.align 2
+CandyShop::
+	.2byte ITEM_EXP_CANDY_XS
+	.2byte ITEM_EXP_CANDY_S
+	.2byte ITEM_EXP_CANDY_M
+	.2byte ITEM_EXP_CANDY_L
+	.2byte ITEM_EXP_CANDY_XL
 	.2byte ITEM_RARE_CANDY
 	.2byte ITEM_NONE
 	releaseall
@@ -1442,3 +1466,6 @@ EvoClerk_Text_0:
 
 EvoClerk_Text_1:
 	.string "Thank you kindly!$"
+
+CandyClerk_Text_0:
+	.string "Hello, want to level up your /n Pokemon?$"
