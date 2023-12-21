@@ -1131,3 +1131,5 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/ZStoneStore/scripts.inc"
 
 	.include "data/maps/DiancieRoom/scripts.inc"
+
+	.include "data/maps/TrinityFriendHouse/scripts.inc"

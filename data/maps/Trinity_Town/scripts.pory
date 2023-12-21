@@ -26,6 +26,7 @@ script HideRocket{
     removeobject(4)
     removeobject(5)
     removeobject(6)
+    removeobject(7)
     setflag(FLAG_HIDE_ROCKET_GUARD)
     end
 }
@@ -109,4 +110,12 @@ text RocketM1_Outro {
 
 text PostBattleRocketM1 {
     "The ocean is serene..."
+}
+
+script RocketGuard3 {
+    lockall
+    faceplayer
+    msgbox("Go away! These Hostages are way /n too strong!")
+    releaseall
+    end
 }

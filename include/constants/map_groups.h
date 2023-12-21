@@ -88,6 +88,7 @@
 #define MAP_METEOR_FALLS_B1F_3R        (79 | (0 << 8))
 #define MAP_MEWTWO_ROOM                (80 | (0 << 8))
 #define MAP_ZSTONE_STORE               (81 | (0 << 8))
+#define MAP_TRINITY_FRIEND_HOUSE       (82 | (0 << 8))
 
 // gMapGroup_IndoorLittleroot
 #define MAP_LITTLEROOT_TOWN_BRENDANS_HOUSE_1F    (0 | (1 << 8))

@@ -868,11 +868,12 @@
 #define BONK_BATTLE                         864
 #define DEESTAR_BATTLE                      865
 #define ZEEROH_BATTLE                       866
+#define YUME_BATTLE                         867
 // NOTE: Because each Trainer uses a flag to determine when they are defeated, there is only space for 9 additional trainers before trainer flag space overflows
 //       More space can be made by shifting flags around in constants/flags.h or changing how trainer flags are handled
 //       MAX_TRAINERS_COUNT can be increased but will take up additional saveblock space
 
-#define TRAINERS_COUNT                      867
-#define MAX_TRAINERS_COUNT                  868
+#define TRAINERS_COUNT                      868
+#define MAX_TRAINERS_COUNT                  869
 
 #endif  // GUARD_CONSTANTS_OPPONENTS_H

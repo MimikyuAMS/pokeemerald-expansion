@@ -1,0 +1,99 @@
+mapscripts TrinityFriendHouse_MapScripts {
+}
+script Yume {
+    trainerbattle_single(YUME_BATTLE, Yume_Intro, Yume_Outro)
+    msgbox(PostBattleYume, MSGBOX_AUTOCLOSE)
+    waitmessage
+    end
+}
+
+text Yume_Intro { 
+    "Hi I am Yume"
+}
+
+text Yume_Outro {
+    "Even when I lose, one thing remains true..."
+}
+
+text PostBattleYume {
+    "The ocean is serene..."
+}
+
+
+script Square {
+    trainerbattle_single(SQUARE_BATTLE, Square_Intro, Square_Outro)
+    msgbox(PostBattleSquare, MSGBOX_AUTOCLOSE)
+    waitmessage
+    end
+}
+
+text Square_Intro { 
+    "The ocean is nice, it reminds me of home..."
+}
+
+text Square_Outro {
+    "Even when I lose, one thing remains true..."
+}
+
+text PostBattleSquare {
+    "The ocean is serene..."
+}
+
+
+script Bonk {
+    trainerbattle_single(BONK_BATTLE, Bonk_Intro, Bonk_Outro)
+    msgbox(PostBattleBonk, MSGBOX_AUTOCLOSE)
+    waitmessage
+    end
+}
+
+text Bonk_Intro { 
+    "The ocean is nice, it reminds me of home..."
+}
+
+text Bonk_Outro {
+    "Even when I lose, one thing remains true..."
+}
+
+text PostBattleBonk {
+    "The ocean is serene..."
+}
+
+
+script Deestar {
+    trainerbattle_single(DEESTAR_BATTLE, Deestar_Intro, Deestar_Outro)
+    msgbox(PostBattleDeestar, MSGBOX_AUTOCLOSE)
+    waitmessage
+    end
+}
+
+text Deestar_Intro { 
+    "The ocean is nice, it reminds me of home..."
+}
+
+text Deestar_Outro {
+    "Even when I lose, one thing remains true..."
+}
+
+text PostBattleDeestar {
+    "The ocean is serene..."
+}
+
+script ZeeRoh {
+    trainerbattle_single(ZEEROH_BATTLE, ZeeRoh_Intro, ZeeRoh_Outro)
+    msgbox(PostBattleZeeRoh, MSGBOX_AUTOCLOSE)
+    waitmessage
+    end
+}
+
+text ZeeRoh_Intro { 
+    "The ocean is nice, it reminds me of home..."
+}
+
+text ZeeRoh_Outro {
+    "Even when I lose, one thing remains true..."
+}
+
+text PostBattleZeeRoh {
+    "The ocean is serene..."
+}

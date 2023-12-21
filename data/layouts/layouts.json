@@ -4720,6 +4720,16 @@
       "secondary_tileset": "gTileset_RusturfTunnel",
       "border_filepath": "data/layouts/DiancieRoom/border.bin",
       "blockdata_filepath": "data/layouts/DiancieRoom/map.bin"
+    },
+    {
+      "id": "LAYOUT_TRINITY_FRIEND_HOUSE",
+      "name": "TrinityFriendHouse_Layout",
+      "width": 10,
+      "height": 8,
+      "primary_tileset": "gTileset_Building",
+      "secondary_tileset": "gTileset_GenericBuilding",
+      "border_filepath": "data/layouts/TrinityFriendHouse/border.bin",
+      "blockdata_filepath": "data/layouts/TrinityFriendHouse/map.bin"
     }
   ]
 }
