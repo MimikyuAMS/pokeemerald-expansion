@@ -1133,3 +1133,11 @@ EventScript_VsSeekerChargingDone::
 	.include "data/maps/DiancieRoom/scripts.inc"
 
 	.include "data/maps/TrinityFriendHouse/scripts.inc"
+
+	.include "data/maps/Lush_Jungle/scripts.inc"
+
+	.include "data/maps/FlowerFields/scripts.inc"
+
+	.include "data/maps/ParadoxZone/scripts.inc"
+
+	.include "data/maps/ParadoxForest/scripts.inc"

@@ -1,0 +1,83 @@
+{
+  "id": "MAP_LUSH_JUNGLE",
+  "name": "Lush_Jungle",
+  "layout": "LAYOUT_LUSH_JUNGLE",
+  "music": "MUS_RG_VIRIDIAN_FOREST",
+  "region_map_section": "MAPSEC_ROUTE_120",
+  "requires_flash": false,
+  "weather": "WEATHER_SHADE",
+  "map_type": "MAP_TYPE_ROUTE",
+  "allow_cycling": false,
+  "allow_escaping": false,
+  "allow_running": true,
+  "show_map_name": false,
+  "battle_scene": "MAP_BATTLE_SCENE_NORMAL",
+  "connections": 0,
+  "object_events": [
+
+  ],
+  "warp_events": [
+    {
+      "x": 17,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE120",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 18,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE120",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 19,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE120",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 20,
+      "y": 17,
+      "elevation": 0,
+      "dest_map": "MAP_ROUTE120",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 17,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_PARADOX_FOREST",
+      "dest_warp_id": "0"
+    },
+    {
+      "x": 18,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_PARADOX_FOREST",
+      "dest_warp_id": "1"
+    },
+    {
+      "x": 19,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_PARADOX_FOREST",
+      "dest_warp_id": "2"
+    },
+    {
+      "x": 20,
+      "y": 2,
+      "elevation": 0,
+      "dest_map": "MAP_PARADOX_FOREST",
+      "dest_warp_id": "3"
+    }
+  ],
+  "coord_events": [
+
+  ],
+  "bg_events": [
+
+  ]
+}

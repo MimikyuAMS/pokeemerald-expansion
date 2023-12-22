@@ -4730,6 +4730,46 @@
       "secondary_tileset": "gTileset_GenericBuilding",
       "border_filepath": "data/layouts/TrinityFriendHouse/border.bin",
       "blockdata_filepath": "data/layouts/TrinityFriendHouse/map.bin"
+    },
+    {
+      "id": "LAYOUT_LUSH_JUNGLE",
+      "name": "Lush_Jungle_Layout",
+      "width": 39,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/Lush_Jungle/border.bin",
+      "blockdata_filepath": "data/layouts/Lush_Jungle/map.bin"
+    },
+    {
+      "id": "LAYOUT_FLOWER_FIELDS",
+      "name": "FlowerFields_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/FlowerFields/border.bin",
+      "blockdata_filepath": "data/layouts/FlowerFields/map.bin"
+    },
+    {
+      "id": "LAYOUT_PARADOX_ZONE",
+      "name": "ParadoxZone_Layout",
+      "width": 20,
+      "height": 10,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_BikeShop",
+      "border_filepath": "data/layouts/ParadoxZone/border.bin",
+      "blockdata_filepath": "data/layouts/ParadoxZone/map.bin"
+    },
+    {
+      "id": "LAYOUT_PARADOX_FOREST",
+      "name": "ParadoxForest_Layout",
+      "width": 20,
+      "height": 20,
+      "primary_tileset": "gTileset_General",
+      "secondary_tileset": "gTileset_Rustboro",
+      "border_filepath": "data/layouts/ParadoxForest/border.bin",
+      "blockdata_filepath": "data/layouts/ParadoxForest/map.bin"
     }
   ]
 }
